@@ -1,64 +1,75 @@
 # QC Methods
 
 ## Purpose
-Wolf Analytics uses a two-layer QC approach for this portfolio project:
 
-1. **Automated technical QC**
-2. **Independent human plausibility review**
+Wolf Analytics uses two complementary QC steps for this portfolio project:
 
-The purpose is to prevent a successful code run from being mistaken for a scientifically or operationally credible result.
+1. Automated technical QC
+2. Independent human plausibility review
 
-## Automated technical QC
+A successful code run is not, by itself, evidence that a dataset or result is scientifically or operationally credible. The QC process is intended to verify both technical consistency and real-world plausibility before results are interpreted or presented.
+
+## Automated Technical QC
 
 Automated checks include:
 
-- no future opening, completion, closure, or implementation dates
-- no completion/closure date before the originating date
-- status/date consistency
-- overdue-flag calculation checks
+- No future opening, completion, closure, or implementation dates
+- No completion or closure date before the corresponding originating date
+- Status and date consistency
+- Verification of overdue calculations
 - CAPA effectiveness-state consistency
-- change-lifecycle consistency
-- training-coverage calculation checks
-- single-point-of-failure flag checks
-- reproducible synthetic generation through a fixed random seed
+- Change management lifecycle consistency
+- Training coverage calculation checks
+- Single-point-of-failure flag checks
+- Reproducible synthetic data generation using a fixed random seed
 
-## Human plausibility review
+These checks are intended to identify structural errors, impossible timelines, inconsistent status logic, and calculation problems before the data are used for KPI analysis or visualization.
 
-Human QC asks whether the generated records and metrics make sense in a realistic quality-management context.
+## Human Plausibility Review
 
-Examples include:
+Human QC evaluates whether the generated records and resulting metrics make sense in a realistic quality management setting.
+
+Questions considered during review include:
 
 - Is event aging believable?
 - Is the overdue backlog plausible rather than randomly extreme?
 - Do severity, risk, status, and due-date relationships make operational sense?
-- Does CAPA effectiveness use an appropriate denominator?
-- Are change implementation, training, verification, and closure modeled as distinct lifecycle states?
+- Does the CAPA effectiveness calculation use an appropriate denominator?
+- Are change implementation, training, verification, and closure represented as distinct lifecycle states?
 - Do staffing and cross-training levels resemble a functioning organization?
-- Would a manager be able to identify what needs attention and why?
-- Are conclusions supported by the underlying data rather than inferred from attractive visualizations?
+- Can a manager identify what requires attention and understand why?
+- Are conclusions supported by the underlying data rather than by the appearance of the visualization?
 
-## Scenario-design principle
+Human review is performed independently of whether the code executes successfully.
 
-The synthetic organization is intentionally designed as **healthy but imperfect**:
+## Scenario Design
 
-- most QMS processes are controlled
-- a manageable subset of quality events is overdue or high risk
-- CAPA effectiveness is strong but not perfect
-- change management includes a realistic follow-up backlog
-- organizational capability is generally strong
-- one intentional single-point-of-failure dependency remains visible for management action
+The synthetic organization is intentionally modeled as generally well controlled, but not perfect.
 
-These values are portfolio scenario-design choices and are **not presented as industry benchmarks**.
+The scenario includes:
 
-## Resume / portfolio evidence rule
+- Most QMS processes operating within expected controls
+- A manageable subset of overdue or high-risk quality events
+- Strong, but not perfect, CAPA effectiveness
+- A realistic change management follow-up backlog
+- Generally strong organizational capability and cross-training coverage
+- One intentional single-point-of-failure dependency that remains visible for management attention
 
-No numerical result is used in a resume, LinkedIn profile, or portfolio claim until it is:
+These values are design choices for this portfolio project. They are not presented as industry benchmarks or regulatory acceptance criteria.
 
-1. reproducibly generated,
-2. technically validated,
-3. independently human-reviewed,
-4. traceable to the underlying synthetic dataset.
+## Use of Results
 
-## Data privacy
+Numerical results are not used in resume, LinkedIn, or portfolio claims until they are:
 
-All project data are synthetic. No employer, client, patient, sponsor, proprietary, or confidential records are used.
+- Reproducibly generated
+- Technically validated
+- Independently reviewed for plausibility
+- Traceable to the underlying synthetic dataset
+
+This rule is intended to keep portfolio claims consistent with the evidence produced by the project.
+
+## Data Privacy
+
+All project data are synthetic.
+
+No employer, client, patient, sponsor, proprietary, confidential, or personally identifiable records are used.
