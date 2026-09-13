@@ -22,13 +22,13 @@ The project evaluates:
 - Single-point-of-failure exposure
 - Management priorities and decision support
 
-The project also includes an interactive management review dashboard that brings these measures together in a single quality systems performance view.
+The project also includes an interactive management review dashboard that brings these measures together in a single quality system performance view.
 
 No employer, client, patient, sponsor, confidential, proprietary, or personally identifiable data are used.
 
 ## Verified Project Results
 
-The validated synthetic QMS baseline contains:
+The validated synthetic QMS scenario contains:
 
 - 180 quality events
 - 40 open quality events
@@ -67,9 +67,9 @@ The synthetic dataset passed automated integrity checks for:
 
 Automated integrity QC found no structural inconsistencies.
 
-The resulting KPI values were independently recalculated and matched the primary KPI engine results. The dataset, KPI outputs, root cause analyses, and dashboard presentation were also reviewed for operational plausibility.
+The KPI values were independently recalculated and matched the primary analytics engine results. The dataset, KPI outputs, root cause analyses, and dashboard presentation were also reviewed for operational plausibility.
 
-## Safe Resume Wording
+## Resume Wording
 
 ### Concise version
 
@@ -77,7 +77,7 @@ The resulting KPI values were independently recalculated and matched the primary
 
 ### Quantified version
 
-- Developed and validated a Python-based QMS performance analytics workflow using 100% synthetic data, integrating 180 quality events, 95 CAPAs, change management metrics, root cause analysis, and organizational capability data into management review KPIs and risk-based decision support.
+- Developed and technically validated a Python-based QMS performance analytics workflow using 100% synthetic data, integrating 180 quality events, 95 CAPAs, change management metrics, root cause analysis, and organizational capability data into management review KPIs and risk-based decision support.
 
 ### Management review version
 
