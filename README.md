@@ -20,3 +20,21 @@ pip install -r requirements.txt
 python src/generate_synthetic_qms_data.py
 python src/qms_metrics.py
 streamlit run src/qms_dashboard.py
+
+## Quality Control
+
+The project uses both automated technical checks and independent human plausibility review.
+
+QC includes checks for date and status consistency, overdue calculations, CAPA effectiveness logic, change management lifecycle integrity, training coverage calculations, and overall operational plausibility.
+
+See `QC_METHODS.md` for the full QC approach.
+
+## Data and Scope
+
+All data in this repository are synthetic.
+
+The project contains no employer, client, patient, sponsor, confidential, or proprietary data. It demonstrates analytical, quality systems, and management review thinking. It does not claim ownership or operation of a commercial medical device QMS, ISO certification, or direct commercial medical device manufacturing experience.
+
+## Purpose
+
+The goal is to demonstrate how Python-based analytics can turn quality system records into clear performance measures that help identify aging issues, CAPA risk, change management follow-up needs, capability gaps, and management priorities.
