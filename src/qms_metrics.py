@@ -275,7 +275,67 @@ review_df.to_csv(
     OUT / "management_review_flags.csv",
     index=False
 )
+# ------------------------------------------------------------
+# Root-cause recurrence and trend analysis
+# ------------------------------------------------------------
 
+root_cause_summary = (
+    qe.groupby("root_cause_category")
+    .agg(
+        total_events=("event_id", "count"),
+        open_events=("status", lambda s: (s == "Open").sum()),
+        overdue_events=("overdue", "sum"),
+        high_risk_events=("high_risk", "sum"),
+    )
+    .reset_index()
+)
+high_risk_open_by_cause = (
+    qe.loc[(qe["status"] == "Open") & (qe["high_risk"])]
+    .groupby("root_cause_category")
+    .size()
+)
+
+root_cause_summary["high_risk_open_events"] = (
+    root_cause_summary["root_cause_category"]
+    .map(high_risk_open_by_cause)
+    .fillna(0)
+    .astype(int)
+)
+
+root_cause_summary["frequency_pct"] = (
+    root_cause_summary["total_events"] / len(qe) * 100
+).round(1)
+
+root_cause_summary = root_cause_summary.sort_values(
+    ["total_events", "high_risk_open_events"],
+    ascending=[False, False],
+)
+
+qe_trend = qe.copy()
+qe_trend["opened_month"] = (
+    pd.to_datetime(qe_trend["opened_date"])
+    .dt.to_period("M")
+    .astype(str)
+)
+
+root_cause_monthly = (
+    qe_trend.groupby(["opened_month", "root_cause_category"])
+    .size()
+    .reset_index(name="event_count")
+)
+
+root_cause_summary.to_csv(
+    OUT / "root_cause_summary.csv",
+    index=False,
+)
+
+root_cause_monthly.to_csv(
+    OUT / "root_cause_monthly.csv",
+    index=False,
+)
+
+print("\n=== ROOT-CAUSE FREQUENCY AND RISK ===")
+print(root_cause_summary.to_string(index=False))
 # ---------------------------------------------------------------------
 # Console output
 # ---------------------------------------------------------------------

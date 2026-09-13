@@ -1,0 +1,8 @@
+root_cause_category,total_events,open_events,overdue_events,high_risk_events,high_risk_open_events,frequency_pct
+Procedure,40,10,0,13,2,22.2
+Training,36,3,0,10,0,20.0
+Process Design,27,7,3,8,1,15.0
+Data / Documentation,26,7,2,10,4,14.4
+Equipment,22,7,2,8,2,12.2
+Supplier,18,4,1,2,2,10.0
+Material,11,2,0,4,0,6.1
