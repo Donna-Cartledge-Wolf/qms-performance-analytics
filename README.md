@@ -1,6 +1,6 @@
 # Wolf Analytics: QMS Performance & Change Management Analytics
 
-Portfolio project using 100% synthetic data to demonstrate quality systems analytics, performance monitoring, and management-review decision support.
+Portfolio project using 100% synthetic data to demonstrate quality systems analytics, performance monitoring, and management review decision support.
 
 ## Focus
 
@@ -11,7 +11,7 @@ Portfolio project using 100% synthetic data to demonstrate quality systems analy
 - Process performance indicators
 - Training and cross-training coverage
 - Single-point-of-failure risk
-- Management-review decision support
+- Management review decision support
 
 ## Quick Start
 
@@ -20,6 +20,7 @@ pip install -r requirements.txt
 python src/generate_synthetic_qms_data.py
 python src/qms_metrics.py
 streamlit run src/qms_dashboard.py
+```
 
 ## Quality Control
 
@@ -33,7 +34,9 @@ See `QC_METHODS.md` for the full QC approach.
 
 All data in this repository are synthetic.
 
-The project contains no employer, client, patient, sponsor, confidential, or proprietary data. It demonstrates analytical, quality systems, and management review thinking. It does not claim ownership or operation of a commercial medical device QMS, ISO certification, or direct commercial medical device manufacturing experience.
+The project contains no employer, client, patient, sponsor, confidential, or proprietary data. It demonstrates analytical, quality systems, and management review thinking.
+
+It does not claim ownership or operation of a commercial medical device QMS, ISO certification, or direct commercial medical device manufacturing experience.
 
 ## Purpose
 
