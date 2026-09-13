@@ -17,13 +17,13 @@ Automated checks include:
 - No completion or closure date before the corresponding originating date
 - Status and date consistency
 - Overdue calculation checks
-- CAPA effectiveness and lifecycle consistency
+- CAPA effectiveness-state consistency
 - Change management lifecycle consistency
 - Training and capability coverage calculations
 - Single-point-of-failure logic
 - Reproducible synthetic data generation using a fixed random seed
 
-These checks are intended to identify structural errors, impossible timelines, inconsistent status logic, and calculation problems before the data are used for KPI analysis or visualization.
+These checks identify structural errors, impossible timelines, inconsistent status logic, and calculation problems before the data are used for KPI analysis or visualization.
 
 ## Human Plausibility Review
 
@@ -78,7 +78,7 @@ These values are design choices for this portfolio project. They are not present
 
 ## Dashboard and Presentation Review
 
-The final management review dashboard was also reviewed for:
+The final management review dashboard was reviewed for:
 
 - Consistency with the validated KPI outputs
 - Accurate representation of root cause patterns and trends
