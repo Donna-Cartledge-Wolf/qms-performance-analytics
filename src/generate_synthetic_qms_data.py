@@ -74,13 +74,22 @@ opened_dates = []
 closed_dates = []
 age_days = []
 
+# Deliberately design a manageable overdue backlog:
+# 8 of 40 open quality events (20%) will be overdue.
+open_indices = np.where(status == "Open")[0]
+overdue_open_indices = set(
+    rng.choice(open_indices, size=8, replace=False).tolist()
+)
+
 for i in range(n):
     if status[i] == "Open":
-        # Most open events are recent; a smaller subset is deliberately aged.
-        if rng.random() < 0.72:
-            age = int(rng.integers(1, 41))
+        if i in overdue_open_indices:
+            # Overdue, but not unrealistically old.
+            extra_days = int(rng.integers(1, 46))
+            age = int(target_days[i] + extra_days)
         else:
-            age = int(rng.integers(41, 121))
+            # Open and still within its severity-based target window.
+            age = int(rng.integers(1, int(target_days[i]) + 1))
 
         opened = today - pd.Timedelta(days=age)
         closed = pd.NaT

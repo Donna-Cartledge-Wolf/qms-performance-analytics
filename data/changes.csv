@@ -1,121 +1,121 @@
 change_id,change_type,submitted_date,implemented_date,status,risk_level,approval_days,training_required,training_complete_pct,verification_complete,follow_up_pending,ready_for_closure,cycle_days
-CHG-0001,Supplier,2026-02-19,,In Progress,Medium,13,True,28,False,False,False,206.0
-CHG-0002,Supplier,2026-04-12,2026-05-04,Closed,Low,2,True,100,True,False,True,22.0
-CHG-0003,Equipment,2026-03-22,2026-04-19,Implemented,Medium,11,True,84,True,True,False,28.0
-CHG-0004,Training,2026-06-18,,In Progress,Medium,11,False,100,False,False,False,87.0
-CHG-0005,Supplier,2025-12-02,2025-12-17,Implemented,Medium,4,False,100,False,True,False,15.0
-CHG-0006,Training,2026-02-13,2026-03-14,Closed,Low,12,True,100,True,False,True,29.0
-CHG-0007,Process,2025-12-14,2026-01-18,Implemented,Low,4,True,100,False,True,False,35.0
-CHG-0008,Supplier,2026-08-05,2026-09-03,Closed,Medium,5,True,100,True,False,True,29.0
-CHG-0009,Document,2025-11-20,2025-12-20,Closed,Medium,13,False,100,True,False,True,30.0
-CHG-0010,Supplier,2026-06-30,2026-07-27,Closed,Medium,15,True,100,True,False,True,27.0
-CHG-0011,Training,2026-04-03,2026-04-14,Closed,Low,5,False,100,True,False,True,11.0
-CHG-0012,Supplier,2026-04-06,2026-04-27,Closed,Low,14,True,100,True,False,True,21.0
-CHG-0013,ERP / Software,2025-11-18,,In Progress,Medium,14,False,100,False,False,False,299.0
-CHG-0014,Training,2026-06-04,2026-07-15,Closed,Low,12,True,100,True,False,True,41.0
-CHG-0015,Document,2026-06-18,2026-07-15,Closed,Low,3,False,100,True,False,True,27.0
-CHG-0016,Supplier,2026-05-13,2026-06-06,Closed,High,6,True,100,True,False,True,24.0
-CHG-0017,Process,2026-05-05,,In Progress,Low,11,False,100,False,False,False,131.0
-CHG-0018,Training,2026-07-09,2026-08-02,Closed,Medium,15,True,100,True,False,True,24.0
-CHG-0019,Training,2026-07-11,2026-08-04,Closed,Low,13,False,100,True,False,True,24.0
-CHG-0020,ERP / Software,2026-06-21,2026-07-15,Closed,Medium,7,False,100,True,False,True,24.0
-CHG-0021,Document,2026-03-27,2026-05-04,Closed,Medium,5,False,100,True,False,True,38.0
-CHG-0022,ERP / Software,2026-05-11,2026-06-19,Closed,Medium,15,True,100,True,False,True,39.0
-CHG-0023,Training,2026-04-23,,In Progress,Low,5,True,17,False,False,False,143.0
-CHG-0024,Document,2025-12-25,2026-01-12,Closed,Medium,6,True,100,True,False,True,18.0
-CHG-0025,Document,2026-06-18,2026-08-03,Closed,Medium,15,True,100,True,False,True,46.0
-CHG-0026,Equipment,2025-10-16,,In Progress,Low,9,True,44,False,False,False,332.0
-CHG-0027,Document,2025-12-13,2025-12-30,Closed,Low,5,False,100,True,False,True,17.0
-CHG-0028,Document,2026-07-12,,In Progress,Low,2,False,100,False,False,False,63.0
-CHG-0029,ERP / Software,2026-05-22,2026-06-05,Closed,High,8,True,100,True,False,True,14.0
-CHG-0030,Document,2026-07-09,2026-08-24,Closed,Medium,15,False,100,True,False,True,46.0
-CHG-0031,Training,2026-06-06,,In Progress,Medium,8,False,100,False,False,False,99.0
-CHG-0032,Document,2026-05-03,2026-06-04,Closed,Medium,11,False,100,True,False,True,32.0
-CHG-0033,Training,2026-07-28,2026-08-16,Implemented,Medium,5,True,89,True,True,False,19.0
-CHG-0034,Equipment,2026-09-08,,In Progress,Medium,12,True,5,False,False,False,5.0
-CHG-0035,ERP / Software,2026-04-06,2026-05-12,Closed,Medium,12,False,100,True,False,True,36.0
-CHG-0036,Supplier,2026-01-01,2026-02-01,Closed,Medium,10,True,100,True,False,True,31.0
-CHG-0037,Equipment,2026-05-26,2026-07-05,Implemented,Low,12,True,91,True,True,False,40.0
-CHG-0038,Process,2025-11-03,2025-12-06,Closed,Medium,10,False,100,True,False,True,33.0
-CHG-0039,Training,2026-05-02,2026-05-17,Closed,Medium,7,False,100,True,False,True,15.0
-CHG-0040,Document,2025-10-20,2025-11-09,Closed,Low,12,False,100,True,False,True,20.0
-CHG-0041,ERP / Software,2026-06-19,2026-07-31,Closed,Medium,13,False,100,True,False,True,42.0
-CHG-0042,Document,2026-03-01,2026-03-23,Closed,Low,13,True,100,True,False,True,22.0
-CHG-0043,Supplier,2025-12-09,2026-01-16,Closed,High,4,True,100,True,False,True,38.0
-CHG-0044,Document,2026-08-23,,In Progress,High,11,True,54,False,False,False,21.0
-CHG-0045,ERP / Software,2025-10-09,2025-11-07,Closed,High,2,True,100,True,False,True,29.0
-CHG-0046,Process,2026-05-03,,In Progress,Low,10,True,47,False,False,False,133.0
-CHG-0047,Supplier,2026-03-16,2026-04-12,Closed,Low,9,False,100,True,False,True,27.0
-CHG-0048,Supplier,2026-01-27,,In Progress,Low,7,True,91,False,False,False,229.0
-CHG-0049,Equipment,2026-01-22,2026-03-10,Implemented,Low,15,False,100,False,True,False,47.0
-CHG-0050,Training,2026-09-05,,In Progress,Low,14,True,22,False,False,False,8.0
-CHG-0051,Process,2025-11-01,,In Progress,Low,2,True,65,False,False,False,316.0
-CHG-0052,Equipment,2026-01-29,2026-03-09,Closed,High,4,True,100,True,False,True,39.0
-CHG-0053,Training,2025-09-14,2025-10-16,Implemented,Low,4,True,100,False,True,False,32.0
-CHG-0054,Supplier,2026-03-25,2026-04-14,Closed,Low,14,False,100,True,False,True,20.0
-CHG-0055,Equipment,2026-02-02,2026-03-13,Implemented,Medium,9,True,94,True,True,False,39.0
-CHG-0056,ERP / Software,2026-04-06,2026-04-27,Closed,Medium,12,True,100,True,False,True,21.0
-CHG-0057,Supplier,2025-10-24,2025-12-04,Closed,Medium,13,False,100,True,False,True,41.0
-CHG-0058,Equipment,2025-11-14,2025-12-20,Closed,Medium,12,True,100,True,False,True,36.0
-CHG-0059,Training,2025-10-17,2025-11-02,Closed,Medium,3,True,100,True,False,True,16.0
-CHG-0060,Process,2026-03-13,2026-04-03,Implemented,Medium,3,True,89,True,True,False,21.0
-CHG-0061,Process,2025-11-29,2025-12-14,Implemented,Medium,7,True,100,False,True,False,15.0
-CHG-0062,Training,2026-05-06,2026-06-16,Closed,Medium,6,False,100,True,False,True,41.0
-CHG-0063,ERP / Software,2026-03-29,2026-04-22,Closed,Medium,12,True,100,True,False,True,24.0
-CHG-0064,Process,2025-12-10,2025-12-28,Closed,Low,4,True,100,True,False,True,18.0
-CHG-0065,Process,2026-08-15,2026-09-11,Closed,Medium,7,True,100,True,False,True,27.0
-CHG-0066,Equipment,2025-12-28,2026-01-27,Closed,Low,5,True,100,True,False,True,30.0
-CHG-0067,Equipment,2026-09-08,,In Progress,Medium,4,True,32,False,False,False,5.0
-CHG-0068,Process,2026-02-14,2026-03-10,Closed,Low,4,False,100,True,False,True,24.0
-CHG-0069,ERP / Software,2026-03-23,2026-04-19,Closed,Low,4,True,100,True,False,True,27.0
-CHG-0070,Process,2026-03-26,2026-05-05,Closed,Low,9,False,100,True,False,True,40.0
-CHG-0071,Equipment,2026-03-17,2026-04-10,Implemented,Medium,7,True,92,True,True,False,24.0
-CHG-0072,Supplier,2026-03-18,,In Progress,Low,8,True,25,False,False,False,179.0
-CHG-0073,Supplier,2026-04-18,2026-05-25,Closed,Medium,8,True,100,True,False,True,37.0
-CHG-0074,ERP / Software,2026-04-02,2026-05-18,Closed,Medium,12,False,100,True,False,True,46.0
-CHG-0075,ERP / Software,2026-02-18,2026-04-06,Implemented,Low,14,False,100,False,True,False,47.0
-CHG-0076,Supplier,2025-12-09,2026-01-16,Closed,Medium,9,True,100,True,False,True,38.0
-CHG-0077,ERP / Software,2026-02-24,2026-03-18,Closed,Low,10,True,100,True,False,True,22.0
-CHG-0078,Training,2026-01-22,2026-03-04,Closed,Low,12,False,100,True,False,True,41.0
-CHG-0079,Equipment,2025-11-12,2025-12-20,Closed,Medium,11,True,100,True,False,True,38.0
-CHG-0080,ERP / Software,2025-09-17,2025-10-03,Closed,High,3,True,100,True,False,True,16.0
-CHG-0081,Supplier,2026-08-05,,In Progress,Low,15,True,33,False,False,False,39.0
-CHG-0082,ERP / Software,2025-12-27,,In Progress,Medium,4,False,100,False,False,False,260.0
-CHG-0083,Supplier,2026-06-23,2026-07-21,Closed,Low,7,False,100,True,False,True,28.0
-CHG-0084,Process,2026-07-04,2026-08-13,Closed,Medium,11,True,100,True,False,True,40.0
-CHG-0085,Process,2025-11-28,2025-12-15,Closed,Medium,7,False,100,True,False,True,17.0
-CHG-0086,Process,2026-08-19,2026-09-08,Implemented,Medium,5,True,100,False,True,False,20.0
-CHG-0087,ERP / Software,2025-11-08,2025-12-21,Closed,Medium,14,True,100,True,False,True,43.0
-CHG-0088,Equipment,2025-12-06,2025-12-28,Closed,Low,3,True,100,True,False,True,22.0
-CHG-0089,Document,2025-09-15,,In Progress,Medium,5,True,26,False,False,False,363.0
-CHG-0090,Process,2026-01-13,,In Progress,Medium,15,True,32,False,False,False,243.0
-CHG-0091,Supplier,2025-10-30,2025-12-08,Closed,Medium,12,True,100,True,False,True,39.0
-CHG-0092,Equipment,2026-08-01,2026-09-03,Implemented,Low,3,True,100,False,True,False,33.0
-CHG-0093,ERP / Software,2025-10-24,2025-12-08,Closed,Medium,12,False,100,True,False,True,45.0
-CHG-0094,Training,2026-07-17,2026-08-10,Closed,Medium,15,True,100,True,False,True,24.0
-CHG-0095,Training,2026-05-22,2026-06-29,Implemented,Low,3,True,100,False,True,False,38.0
-CHG-0096,Process,2026-07-29,,In Progress,Low,7,False,100,False,False,False,46.0
-CHG-0097,Document,2026-04-20,2026-05-13,Implemented,Medium,8,False,100,False,True,False,23.0
-CHG-0098,Supplier,2025-12-14,2026-01-02,Closed,Medium,3,False,100,True,False,True,19.0
-CHG-0099,Training,2026-06-08,,In Progress,Low,4,False,100,False,False,False,97.0
-CHG-0100,Equipment,2025-11-17,2025-12-16,Closed,Medium,4,False,100,True,False,True,29.0
-CHG-0101,Equipment,2026-02-04,2026-02-27,Implemented,Medium,4,True,86,True,True,False,23.0
-CHG-0102,Document,2026-01-27,,In Progress,Medium,7,True,33,False,False,False,229.0
-CHG-0103,Document,2025-10-06,2025-11-18,Closed,Medium,8,False,100,True,False,True,43.0
-CHG-0104,Equipment,2026-04-09,2026-04-25,Closed,Medium,5,True,100,True,False,True,16.0
-CHG-0105,Process,2026-05-11,2026-05-24,Closed,Medium,6,True,100,True,False,True,13.0
-CHG-0106,Training,2025-09-15,,In Progress,High,4,True,89,False,False,False,363.0
-CHG-0107,Supplier,2026-02-22,2026-03-24,Closed,Medium,13,True,100,True,False,True,30.0
-CHG-0108,Equipment,2026-02-01,2026-03-01,Closed,Medium,4,True,100,True,False,True,28.0
-CHG-0109,Equipment,2026-05-28,2026-07-13,Closed,Medium,14,True,100,True,False,True,46.0
-CHG-0110,Process,2026-06-27,2026-07-14,Closed,Medium,9,False,100,True,False,True,17.0
-CHG-0111,Document,2026-07-14,,In Progress,Low,13,False,100,False,False,False,61.0
-CHG-0112,Document,2026-06-24,2026-07-25,Implemented,Medium,10,True,89,True,True,False,31.0
-CHG-0113,Document,2026-07-04,,In Progress,Medium,5,False,100,False,False,False,71.0
-CHG-0114,Document,2025-12-15,2026-01-17,Closed,High,10,True,100,True,False,True,33.0
-CHG-0115,Supplier,2026-08-23,2026-09-13,Closed,Medium,5,False,100,True,False,True,21.0
-CHG-0116,Process,2026-01-27,,In Progress,Medium,3,False,100,False,False,False,229.0
-CHG-0117,Equipment,2025-10-02,2025-11-11,Closed,High,5,True,100,True,False,True,40.0
-CHG-0118,ERP / Software,2025-12-08,2026-01-01,Implemented,Medium,5,False,100,False,True,False,24.0
-CHG-0119,ERP / Software,2026-04-19,,In Progress,Low,3,False,100,False,False,False,147.0
-CHG-0120,Document,2026-08-23,,In Progress,Low,2,False,100,False,False,False,21.0
+CHG-0001,Training,2026-08-25,,In Progress,Medium,11,False,100,False,False,False,19.0
+CHG-0002,Document,2026-04-08,2026-05-12,Closed,Medium,2,False,100,True,False,True,34.0
+CHG-0003,Document,2026-01-15,2026-02-04,Closed,Medium,14,False,100,True,False,True,20.0
+CHG-0004,Process,2025-12-04,2025-12-25,Closed,Medium,10,True,100,True,False,True,21.0
+CHG-0005,ERP / Software,2026-01-11,2026-02-06,Closed,Low,15,False,100,True,False,True,26.0
+CHG-0006,Training,2025-10-09,2025-11-18,Implemented,Low,8,False,100,False,True,False,40.0
+CHG-0007,Equipment,2025-09-28,2025-10-29,Closed,Low,10,False,100,True,False,True,31.0
+CHG-0008,Training,2025-12-30,2026-02-03,Closed,Medium,8,True,100,True,False,True,35.0
+CHG-0009,Training,2026-05-01,2026-06-14,Closed,Medium,14,True,100,True,False,True,44.0
+CHG-0010,Training,2026-02-07,2026-03-20,Closed,Medium,13,True,100,True,False,True,41.0
+CHG-0011,Process,2026-04-11,2026-05-02,Implemented,Low,14,True,97,True,True,False,21.0
+CHG-0012,Equipment,2026-01-27,2026-02-14,Implemented,Medium,9,True,94,True,True,False,18.0
+CHG-0013,Process,2025-11-21,2025-12-21,Closed,High,13,True,100,True,False,True,30.0
+CHG-0014,Equipment,2026-05-02,2026-05-24,Closed,Low,7,False,100,True,False,True,22.0
+CHG-0015,Supplier,2026-03-13,,In Progress,Medium,8,True,4,False,False,False,184.0
+CHG-0016,Equipment,2026-08-28,,In Progress,Medium,12,False,100,False,False,False,16.0
+CHG-0017,Training,2025-12-19,2026-01-07,Closed,Medium,3,True,100,True,False,True,19.0
+CHG-0018,Document,2026-03-19,2026-04-11,Closed,Low,11,False,100,True,False,True,23.0
+CHG-0019,Supplier,2026-03-30,2026-04-11,Closed,Medium,2,True,100,True,False,True,12.0
+CHG-0020,Document,2026-03-03,2026-03-23,Closed,High,10,True,100,True,False,True,20.0
+CHG-0021,Training,2026-06-27,2026-07-16,Closed,Medium,8,False,100,True,False,True,19.0
+CHG-0022,Equipment,2026-02-07,2026-03-09,Closed,High,8,False,100,True,False,True,30.0
+CHG-0023,Supplier,2025-12-16,2026-01-10,Implemented,High,8,True,83,True,True,False,25.0
+CHG-0024,Supplier,2026-05-09,2026-06-04,Closed,Low,8,True,100,True,False,True,26.0
+CHG-0025,Process,2026-07-28,2026-08-23,Implemented,Medium,7,False,100,False,True,False,26.0
+CHG-0026,Supplier,2026-04-25,,In Progress,Medium,8,False,100,False,False,False,141.0
+CHG-0027,Process,2026-07-03,,In Progress,High,9,True,1,False,False,False,72.0
+CHG-0028,ERP / Software,2026-04-30,2026-06-02,Implemented,Low,12,True,90,False,True,False,33.0
+CHG-0029,Supplier,2026-01-28,,In Progress,Medium,9,True,31,False,False,False,228.0
+CHG-0030,ERP / Software,2026-08-03,2026-09-09,Closed,Medium,10,False,100,True,False,True,37.0
+CHG-0031,Supplier,2025-12-15,,In Progress,Low,13,True,0,False,False,False,272.0
+CHG-0032,Training,2026-06-24,,In Progress,Medium,15,True,46,False,False,False,81.0
+CHG-0033,Document,2025-10-22,2025-11-29,Closed,Low,3,False,100,True,False,True,38.0
+CHG-0034,Document,2025-12-20,2026-01-10,Implemented,High,11,True,85,True,True,False,21.0
+CHG-0035,Training,2026-06-06,,In Progress,Medium,5,True,45,False,False,False,99.0
+CHG-0036,Equipment,2026-02-20,,In Progress,Low,4,True,1,False,False,False,205.0
+CHG-0037,Training,2026-08-04,,In Progress,Medium,13,True,12,False,False,False,40.0
+CHG-0038,Equipment,2026-08-08,2026-08-22,Closed,Low,2,True,100,True,False,True,14.0
+CHG-0039,Training,2025-09-30,2025-11-15,Implemented,Medium,13,True,99,True,True,False,46.0
+CHG-0040,Document,2025-11-25,,In Progress,Medium,12,False,100,False,False,False,292.0
+CHG-0041,Document,2026-07-19,2026-08-15,Closed,Medium,15,False,100,True,False,True,27.0
+CHG-0042,ERP / Software,2026-06-02,2026-07-18,Closed,Low,11,True,100,True,False,True,46.0
+CHG-0043,Supplier,2026-07-03,2026-08-13,Closed,Low,14,True,100,True,False,True,41.0
+CHG-0044,Supplier,2026-04-22,2026-05-02,Closed,Medium,3,True,100,True,False,True,10.0
+CHG-0045,Document,2026-05-30,2026-07-11,Closed,Medium,14,False,100,True,False,True,42.0
+CHG-0046,Training,2026-05-17,2026-06-25,Implemented,Medium,4,True,85,True,True,False,39.0
+CHG-0047,Equipment,2026-03-04,2026-03-18,Implemented,Low,6,False,100,False,True,False,14.0
+CHG-0048,ERP / Software,2026-07-06,2026-07-26,Closed,Low,3,True,100,True,False,True,20.0
+CHG-0049,Process,2025-10-26,,In Progress,Medium,7,False,100,False,False,False,322.0
+CHG-0050,ERP / Software,2025-12-22,2026-01-12,Implemented,Low,12,True,99,False,True,False,21.0
+CHG-0051,Process,2025-12-10,2025-12-26,Closed,Low,5,False,100,True,False,True,16.0
+CHG-0052,Process,2026-07-14,2026-08-06,Closed,High,13,True,100,True,False,True,23.0
+CHG-0053,ERP / Software,2025-12-29,,In Progress,Low,10,False,100,False,False,False,258.0
+CHG-0054,Process,2025-11-12,2025-12-09,Implemented,Medium,10,True,85,True,True,False,27.0
+CHG-0055,Training,2026-07-12,2026-08-15,Closed,Low,15,False,100,True,False,True,34.0
+CHG-0056,ERP / Software,2025-12-13,2026-01-02,Closed,Medium,8,False,100,True,False,True,20.0
+CHG-0057,ERP / Software,2026-05-06,2026-05-25,Closed,Medium,6,False,100,True,False,True,19.0
+CHG-0058,Training,2025-11-30,2025-12-25,Closed,Medium,15,True,100,True,False,True,25.0
+CHG-0059,Process,2026-03-23,,In Progress,Low,9,True,12,False,False,False,174.0
+CHG-0060,Equipment,2025-11-25,2025-12-16,Implemented,Medium,10,True,85,True,True,False,21.0
+CHG-0061,Supplier,2026-07-22,2026-08-30,Closed,Medium,6,True,100,True,False,True,39.0
+CHG-0062,Supplier,2026-04-24,,In Progress,Low,5,True,31,False,False,False,142.0
+CHG-0063,Equipment,2026-06-06,2026-07-09,Closed,Low,4,False,100,True,False,True,33.0
+CHG-0064,Training,2026-06-15,,In Progress,Low,5,False,100,False,False,False,90.0
+CHG-0065,Supplier,2026-05-24,2026-06-10,Implemented,High,4,True,90,True,True,False,17.0
+CHG-0066,Training,2026-04-27,2026-06-01,Closed,Medium,12,False,100,True,False,True,35.0
+CHG-0067,Process,2026-07-29,,In Progress,Medium,2,False,100,False,False,False,46.0
+CHG-0068,Supplier,2025-12-29,2026-01-16,Closed,Medium,10,False,100,True,False,True,18.0
+CHG-0069,Document,2026-02-25,2026-03-24,Closed,Medium,15,True,100,True,False,True,27.0
+CHG-0070,Supplier,2025-11-15,,In Progress,Medium,12,True,67,False,False,False,302.0
+CHG-0071,Training,2025-12-30,2026-01-15,Closed,Medium,7,False,100,True,False,True,16.0
+CHG-0072,Supplier,2026-07-21,2026-07-28,Closed,Medium,2,True,100,True,False,True,7.0
+CHG-0073,ERP / Software,2026-08-19,,In Progress,Low,13,True,28,False,False,False,25.0
+CHG-0074,Training,2026-04-12,2026-05-04,Closed,Medium,2,False,100,True,False,True,22.0
+CHG-0075,Document,2026-03-22,2026-04-19,Closed,Medium,11,False,100,True,False,True,28.0
+CHG-0076,Supplier,2026-06-18,2026-08-01,Closed,Low,11,False,100,True,False,True,44.0
+CHG-0077,Process,2025-12-02,2025-12-17,Closed,Medium,4,False,100,True,False,True,15.0
+CHG-0078,Training,2026-02-13,2026-03-14,Closed,Low,12,True,100,True,False,True,29.0
+CHG-0079,Training,2025-12-14,2026-01-18,Closed,High,4,True,100,True,False,True,35.0
+CHG-0080,ERP / Software,2026-08-05,,In Progress,High,5,True,68,False,False,False,39.0
+CHG-0081,Document,2025-11-20,2025-12-20,Closed,High,13,True,100,True,False,True,30.0
+CHG-0082,ERP / Software,2026-06-30,,In Progress,Low,15,True,65,False,False,False,75.0
+CHG-0083,Training,2026-04-03,2026-04-14,Closed,Low,5,False,100,True,False,True,11.0
+CHG-0084,Document,2026-04-06,,In Progress,Low,14,True,48,False,False,False,160.0
+CHG-0085,Document,2025-11-18,2025-12-12,Closed,Low,14,False,100,True,False,True,24.0
+CHG-0086,Equipment,2026-06-04,2026-07-15,Closed,Low,12,True,100,True,False,True,41.0
+CHG-0087,Document,2026-06-18,,In Progress,Low,3,True,64,False,False,False,87.0
+CHG-0088,Document,2026-05-13,2026-06-06,Closed,High,6,True,100,True,False,True,24.0
+CHG-0089,ERP / Software,2026-05-05,2026-06-14,Closed,Low,11,True,100,True,False,True,40.0
+CHG-0090,Document,2026-07-09,2026-08-02,Closed,Low,15,False,100,True,False,True,24.0
+CHG-0091,Training,2026-07-11,2026-08-04,Closed,Medium,13,True,100,True,False,True,24.0
+CHG-0092,Document,2026-06-21,2026-07-15,Closed,Medium,7,True,100,True,False,True,24.0
+CHG-0093,Training,2026-03-27,2026-05-04,Implemented,Medium,5,False,100,False,True,False,38.0
+CHG-0094,Equipment,2026-05-11,2026-06-19,Closed,Medium,15,True,100,True,False,True,39.0
+CHG-0095,ERP / Software,2026-04-23,2026-05-29,Implemented,Medium,5,True,81,False,True,False,36.0
+CHG-0096,Supplier,2025-12-25,2026-01-12,Closed,Medium,6,True,100,True,False,True,18.0
+CHG-0097,Equipment,2026-06-18,2026-08-03,Implemented,Medium,15,True,91,True,True,False,46.0
+CHG-0098,Process,2025-10-16,2025-11-01,Closed,Medium,9,False,100,True,False,True,16.0
+CHG-0099,Training,2025-12-13,2025-12-30,Closed,Medium,5,True,100,True,False,True,17.0
+CHG-0100,Document,2026-07-12,2026-08-04,Closed,Low,2,True,100,True,False,True,23.0
+CHG-0101,ERP / Software,2026-05-22,2026-06-05,Closed,Medium,8,True,100,True,False,True,14.0
+CHG-0102,Document,2026-07-09,2026-08-24,Closed,Low,15,True,100,True,False,True,46.0
+CHG-0103,Supplier,2026-06-06,2026-07-15,Implemented,Medium,8,True,100,False,True,False,39.0
+CHG-0104,Document,2026-05-03,2026-06-04,Closed,Low,11,False,100,True,False,True,32.0
+CHG-0105,ERP / Software,2026-07-28,2026-08-16,Closed,Low,5,True,100,True,False,True,19.0
+CHG-0106,Process,2026-09-08,,In Progress,Low,12,False,100,False,False,False,5.0
+CHG-0107,Supplier,2026-04-06,2026-05-12,Closed,Medium,12,True,100,True,False,True,36.0
+CHG-0108,Supplier,2026-01-01,,In Progress,Low,10,True,28,False,False,False,255.0
+CHG-0109,Equipment,2026-05-26,2026-07-05,Implemented,Medium,12,True,96,True,True,False,40.0
+CHG-0110,Training,2025-11-03,2025-12-06,Closed,Medium,10,False,100,True,False,True,33.0
+CHG-0111,Process,2026-05-02,2026-05-17,Closed,Low,7,False,100,True,False,True,15.0
+CHG-0112,Equipment,2025-10-20,2025-11-09,Closed,Medium,12,True,100,True,False,True,20.0
+CHG-0113,Training,2026-06-19,2026-07-31,Closed,Low,13,True,100,True,False,True,42.0
+CHG-0114,Supplier,2026-03-01,2026-03-23,Closed,Low,13,False,100,True,False,True,22.0
+CHG-0115,Equipment,2025-12-09,2026-01-16,Closed,Medium,4,True,100,True,False,True,38.0
+CHG-0116,ERP / Software,2026-08-23,2026-09-11,Implemented,High,11,True,89,True,True,False,19.0
+CHG-0117,Supplier,2025-10-09,2025-11-07,Implemented,Low,2,True,100,False,True,False,29.0
+CHG-0118,Equipment,2026-05-03,,In Progress,Medium,10,False,100,False,False,False,133.0
+CHG-0119,Training,2026-03-16,2026-04-12,Closed,Low,9,False,100,True,False,True,27.0
+CHG-0120,Process,2026-01-27,2026-02-09,Closed,Medium,7,True,100,True,False,True,13.0

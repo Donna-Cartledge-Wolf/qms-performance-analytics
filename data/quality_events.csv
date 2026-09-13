@@ -1,181 +1,181 @@
 event_id,event_type,process_area,opened_date,closed_date,status,severity,root_cause_category,target_days,age_days,overdue,high_risk
-QE-0001,Investigation,Risk Assessment,2026-05-21,,Open,Low,Process Design,60,115,True,False
-QE-0002,Complaint,Supplier Quality,2025-09-18,2025-12-10,Closed,Medium,Training,45,83,False,False
-QE-0003,Investigation,Change Management,2026-06-01,2026-06-25,Closed,Medium,Equipment,45,24,False,False
-QE-0004,Complaint,CAPA,2026-04-28,2026-06-13,Closed,Medium,Data / Documentation,45,46,False,False
-QE-0005,Investigation,Document Control,2025-10-24,2025-12-31,Closed,Medium,Training,45,68,False,False
-QE-0006,Investigation,Change Management,2026-01-14,2026-04-04,Closed,Medium,Process Design,45,80,False,False
-QE-0007,Investigation,Complaint Handling,2026-01-13,2026-02-20,Closed,Medium,Training,45,38,False,False
-QE-0008,Complaint,CAPA,2026-09-09,,Open,Critical,Data / Documentation,15,4,False,True
-QE-0009,Investigation,Complaint Handling,2026-06-05,,Open,High,Process Design,30,100,True,True
-QE-0010,Investigation,Investigation / RCA,2026-02-21,2026-05-04,Closed,Medium,Supplier,45,72,False,False
-QE-0011,Investigation,Complaint Handling,2025-09-30,2025-11-23,Closed,Medium,Supplier,45,54,False,False
-QE-0012,Investigation,Change Management,2026-03-24,2026-04-08,Closed,Medium,Data / Documentation,45,15,False,False
-QE-0013,Investigation,Supplier Quality,2025-11-28,2026-02-18,Closed,High,Data / Documentation,30,82,False,True
-QE-0014,Complaint,CAPA,2026-05-27,,Open,Medium,Equipment,45,109,True,False
-QE-0015,Complaint,CAPA,2025-11-21,2026-01-09,Closed,High,Training,30,49,False,True
-QE-0016,Investigation,Risk Assessment,2026-09-09,,Open,Medium,Equipment,45,4,False,False
-QE-0017,Complaint,QMS Metrics,2026-03-28,2026-06-05,Closed,Medium,Data / Documentation,45,69,False,False
-QE-0018,Complaint,Change Management,2026-03-20,2026-03-28,Closed,Medium,Procedure,45,8,False,False
-QE-0019,Investigation,Investigation / RCA,2026-06-13,2026-09-10,Closed,High,Procedure,30,89,False,True
-QE-0020,Investigation,Document Control,2025-09-17,2025-10-25,Closed,Low,Equipment,60,38,False,False
-QE-0021,Complaint,Investigation / RCA,2025-11-19,2026-01-25,Closed,Medium,Procedure,45,67,False,False
-QE-0022,Investigation,Investigation / RCA,2025-10-06,2025-12-26,Closed,High,Training,30,81,False,True
-QE-0023,Complaint,Document Control,2026-01-19,2026-02-28,Closed,Low,Training,60,40,False,False
-QE-0024,Investigation,Change Management,2026-01-20,2026-02-22,Closed,Medium,Procedure,45,33,False,False
-QE-0025,Complaint,QMS Metrics,2026-04-26,2026-06-23,Closed,Low,Training,60,58,False,False
-QE-0026,Investigation,Change Management,2026-02-08,2026-04-04,Closed,High,Process Design,30,55,False,True
-QE-0027,Investigation,Supplier Quality,2026-09-12,,Open,Low,Procedure,60,1,False,False
-QE-0028,Investigation,Investigation / RCA,2026-01-28,2026-03-24,Closed,Critical,Equipment,15,55,False,True
-QE-0029,Complaint,Investigation / RCA,2025-10-05,2025-11-23,Closed,Low,Supplier,60,49,False,False
-QE-0030,Investigation,Investigation / RCA,2026-03-16,2026-03-28,Closed,Critical,Training,15,12,False,True
-QE-0031,Complaint,Complaint Handling,2026-06-17,2026-07-21,Closed,High,Procedure,30,34,False,True
-QE-0032,Complaint,Document Control,2026-08-28,,Open,Medium,Process Design,45,16,False,False
-QE-0033,Investigation,Investigation / RCA,2026-08-30,,Open,High,Procedure,30,14,False,True
-QE-0034,Complaint,Change Management,2026-06-29,2026-07-27,Closed,High,Training,30,28,False,True
-QE-0035,Investigation,QMS Metrics,2025-12-31,2026-01-10,Closed,Critical,Material,15,10,False,True
-QE-0036,Investigation,QMS Metrics,2026-04-29,2026-05-07,Closed,Medium,Material,45,8,False,False
-QE-0037,Complaint,CAPA,2025-09-28,2025-12-05,Closed,Medium,Equipment,45,68,False,False
-QE-0038,Investigation,Change Management,2026-06-01,2026-06-24,Closed,Low,Training,60,23,False,False
-QE-0039,Complaint,Risk Assessment,2026-07-27,,Open,Medium,Process Design,45,48,True,False
-QE-0040,Investigation,Supplier Quality,2026-07-07,,Open,Low,Process Design,60,68,True,False
-QE-0041,Complaint,QMS Metrics,2026-05-20,2026-07-06,Closed,Medium,Training,45,47,False,False
-QE-0042,Investigation,Document Control,2026-06-16,2026-09-11,Closed,Medium,Process Design,45,87,False,False
-QE-0043,Complaint,QMS Metrics,2026-09-05,,Open,Medium,Procedure,45,8,False,False
-QE-0044,Complaint,Investigation / RCA,2026-08-05,2026-08-27,Closed,Medium,Procedure,45,22,False,False
-QE-0045,Complaint,Change Management,2026-03-20,2026-04-17,Closed,High,Data / Documentation,30,28,False,True
-QE-0046,Investigation,Complaint Handling,2026-07-11,2026-07-20,Closed,High,Procedure,30,9,False,True
-QE-0047,Investigation,Supplier Quality,2026-08-22,2026-09-05,Closed,Medium,Procedure,45,14,False,False
-QE-0048,Investigation,Risk Assessment,2026-07-15,,Open,Medium,Equipment,45,60,True,False
-QE-0049,Investigation,Change Management,2026-01-11,2026-03-15,Closed,Critical,Material,15,63,False,True
-QE-0050,Investigation,CAPA,2026-03-06,2026-05-26,Closed,Low,Data / Documentation,60,81,False,False
-QE-0051,Investigation,Complaint Handling,2026-07-17,2026-08-05,Closed,Low,Equipment,60,19,False,False
-QE-0052,Complaint,Risk Assessment,2026-05-29,2026-06-16,Closed,Low,Material,60,18,False,False
-QE-0053,Investigation,Complaint Handling,2026-07-11,,Open,Medium,Procedure,45,64,True,False
-QE-0054,Investigation,Complaint Handling,2026-05-12,2026-07-31,Closed,Medium,Training,45,80,False,False
-QE-0055,Complaint,Investigation / RCA,2025-11-30,2026-02-20,Closed,High,Training,30,82,False,True
-QE-0056,Complaint,Complaint Handling,2026-07-19,2026-09-13,Closed,Medium,Procedure,45,56,False,False
-QE-0057,Investigation,Change Management,2026-01-24,2026-04-23,Closed,Medium,Equipment,45,89,False,False
-QE-0058,Complaint,Change Management,2026-04-24,2026-07-20,Closed,High,Training,30,87,False,True
-QE-0059,Investigation,Investigation / RCA,2026-08-27,,Open,High,Data / Documentation,30,17,False,True
-QE-0060,Complaint,Complaint Handling,2026-07-08,2026-09-10,Closed,Medium,Procedure,45,64,False,False
-QE-0061,Complaint,Complaint Handling,2026-08-31,,Open,Medium,Procedure,45,13,False,False
-QE-0062,Investigation,CAPA,2026-03-30,2026-04-14,Closed,Medium,Supplier,45,15,False,False
-QE-0063,Complaint,Complaint Handling,2025-11-15,2026-02-01,Closed,Low,Procedure,60,78,False,False
-QE-0064,Complaint,Supplier Quality,2025-12-10,2026-02-06,Closed,Low,Procedure,60,58,False,False
-QE-0065,Investigation,Investigation / RCA,2026-04-07,2026-05-29,Closed,Critical,Training,15,52,False,True
+QE-0001,Investigation,Risk Assessment,2026-08-19,,Open,Low,Process Design,60,25,False,False
+QE-0002,Complaint,Supplier Quality,2026-02-27,2026-03-13,Closed,Medium,Training,45,14,False,False
+QE-0003,Investigation,Change Management,2025-12-11,2026-02-10,Closed,Medium,Equipment,45,61,False,False
+QE-0004,Complaint,CAPA,2025-12-15,2026-02-04,Closed,Medium,Data / Documentation,45,51,False,False
+QE-0005,Investigation,Document Control,2025-11-27,2026-02-21,Closed,Medium,Training,45,86,False,False
+QE-0006,Investigation,Change Management,2026-02-08,2026-03-24,Closed,Medium,Process Design,45,44,False,False
+QE-0007,Investigation,Complaint Handling,2026-07-19,2026-09-02,Closed,Medium,Training,45,45,False,False
+QE-0008,Complaint,CAPA,2026-08-30,,Open,Critical,Data / Documentation,15,14,False,True
+QE-0009,Investigation,Complaint Handling,2026-08-23,,Open,High,Process Design,30,21,False,True
+QE-0010,Investigation,Investigation / RCA,2025-10-29,2026-01-16,Closed,Medium,Supplier,45,79,False,False
+QE-0011,Investigation,Complaint Handling,2025-11-21,2026-01-09,Closed,Medium,Supplier,45,49,False,False
+QE-0012,Investigation,Change Management,2026-07-21,2026-07-28,Closed,Medium,Data / Documentation,45,7,False,False
+QE-0013,Investigation,Supplier Quality,2026-06-15,2026-07-28,Closed,High,Data / Documentation,30,43,False,True
+QE-0014,Complaint,CAPA,2026-08-10,,Open,Medium,Equipment,45,34,False,False
+QE-0015,Complaint,CAPA,2026-03-20,2026-03-28,Closed,High,Training,30,8,False,True
+QE-0016,Investigation,Risk Assessment,2026-09-03,,Open,Medium,Equipment,45,10,False,False
+QE-0017,Complaint,QMS Metrics,2025-09-20,2025-12-18,Closed,Medium,Data / Documentation,45,89,False,False
+QE-0018,Complaint,Change Management,2026-04-16,2026-06-29,Closed,Medium,Procedure,45,74,False,False
+QE-0019,Investigation,Investigation / RCA,2025-12-19,2026-03-14,Closed,High,Procedure,30,85,False,True
+QE-0020,Investigation,Document Control,2025-10-21,2025-12-19,Closed,Low,Equipment,60,59,False,False
+QE-0021,Complaint,Investigation / RCA,2026-04-10,2026-06-08,Closed,Medium,Procedure,45,59,False,False
+QE-0022,Investigation,Investigation / RCA,2026-05-06,2026-06-11,Closed,High,Training,30,36,False,True
+QE-0023,Complaint,Document Control,2026-01-26,2026-03-21,Closed,Low,Training,60,54,False,False
+QE-0024,Investigation,Change Management,2026-02-04,2026-03-15,Closed,Medium,Procedure,45,39,False,False
+QE-0025,Complaint,QMS Metrics,2026-04-05,2026-04-12,Closed,Low,Training,60,7,False,False
+QE-0026,Investigation,Change Management,2026-01-28,2026-03-24,Closed,High,Process Design,30,55,False,True
+QE-0027,Investigation,Supplier Quality,2026-07-18,,Open,Low,Procedure,60,57,False,False
+QE-0028,Investigation,Investigation / RCA,2026-03-03,2026-04-18,Closed,Critical,Equipment,15,46,False,True
+QE-0029,Complaint,Investigation / RCA,2026-08-01,2026-08-15,Closed,Low,Supplier,60,14,False,False
+QE-0030,Investigation,Investigation / RCA,2026-04-30,2026-06-07,Closed,Critical,Training,15,38,False,True
+QE-0031,Complaint,Complaint Handling,2026-04-21,2026-05-31,Closed,High,Procedure,30,40,False,True
+QE-0032,Complaint,Document Control,2026-08-09,,Open,Medium,Process Design,45,35,False,False
+QE-0033,Investigation,Investigation / RCA,2026-09-09,,Open,High,Procedure,30,4,False,True
+QE-0034,Complaint,Change Management,2026-05-02,2026-05-22,Closed,High,Training,30,20,False,True
+QE-0035,Investigation,QMS Metrics,2026-05-10,2026-07-13,Closed,Critical,Material,15,64,False,True
+QE-0036,Investigation,QMS Metrics,2026-08-08,2026-08-25,Closed,Medium,Material,45,17,False,False
+QE-0037,Complaint,CAPA,2026-08-16,2026-09-13,Closed,Medium,Equipment,45,28,False,False
+QE-0038,Investigation,Change Management,2025-12-16,2026-01-12,Closed,Low,Training,60,27,False,False
+QE-0039,Complaint,Risk Assessment,2026-07-21,,Open,Medium,Process Design,45,54,True,False
+QE-0040,Investigation,Supplier Quality,2026-07-10,,Open,Low,Process Design,60,65,True,False
+QE-0041,Complaint,QMS Metrics,2026-03-14,2026-05-23,Closed,Medium,Training,45,70,False,False
+QE-0042,Investigation,Document Control,2026-02-03,2026-04-25,Closed,Medium,Process Design,45,81,False,False
+QE-0043,Complaint,QMS Metrics,2026-08-28,,Open,Medium,Procedure,45,16,False,False
+QE-0044,Complaint,Investigation / RCA,2026-05-20,2026-07-06,Closed,Medium,Procedure,45,47,False,False
+QE-0045,Complaint,Change Management,2026-06-16,2026-09-11,Closed,High,Data / Documentation,30,87,False,True
+QE-0046,Investigation,Complaint Handling,2026-06-21,2026-08-04,Closed,High,Procedure,30,44,False,True
+QE-0047,Investigation,Supplier Quality,2026-02-25,2026-03-08,Closed,Medium,Procedure,45,11,False,False
+QE-0048,Investigation,Risk Assessment,2026-08-22,,Open,Medium,Equipment,45,22,False,False
+QE-0049,Investigation,Change Management,2026-03-20,2026-04-17,Closed,Critical,Material,15,28,False,True
+QE-0050,Investigation,CAPA,2026-07-11,2026-07-20,Closed,Low,Data / Documentation,60,9,False,False
+QE-0051,Investigation,Complaint Handling,2026-08-22,2026-09-05,Closed,Low,Equipment,60,14,False,False
+QE-0052,Complaint,Risk Assessment,2026-07-24,2026-09-12,Closed,Low,Material,60,50,False,False
+QE-0053,Investigation,Complaint Handling,2026-09-01,,Open,Medium,Procedure,45,12,False,False
+QE-0054,Investigation,Complaint Handling,2026-01-11,2026-03-15,Closed,Medium,Training,45,63,False,False
+QE-0055,Complaint,Investigation / RCA,2026-03-06,2026-05-26,Closed,High,Training,30,81,False,True
+QE-0056,Complaint,Complaint Handling,2026-07-17,2026-08-05,Closed,Medium,Procedure,45,19,False,False
+QE-0057,Investigation,Change Management,2026-05-29,2026-06-16,Closed,Medium,Equipment,45,18,False,False
+QE-0058,Complaint,Change Management,2026-05-15,2026-06-17,Closed,High,Training,30,33,False,True
+QE-0059,Investigation,Investigation / RCA,2026-07-10,,Open,High,Data / Documentation,30,65,True,True
+QE-0060,Complaint,Complaint Handling,2026-05-12,2026-07-31,Closed,Medium,Procedure,45,80,False,False
+QE-0061,Complaint,Complaint Handling,2026-08-09,,Open,Medium,Procedure,45,35,False,False
+QE-0062,Investigation,CAPA,2025-10-17,2025-11-01,Closed,Medium,Supplier,45,15,False,False
+QE-0063,Complaint,Complaint Handling,2025-09-18,2025-11-15,Closed,Low,Procedure,60,58,False,False
+QE-0064,Complaint,Supplier Quality,2025-09-19,2025-10-25,Closed,Low,Procedure,60,36,False,False
+QE-0065,Investigation,Investigation / RCA,2025-09-29,2025-11-24,Closed,Critical,Training,15,56,False,True
 QE-0066,Investigation,Investigation / RCA,2026-09-09,,Open,Medium,Data / Documentation,45,4,False,False
-QE-0067,Complaint,CAPA,2026-05-29,2026-07-13,Closed,Medium,Data / Documentation,45,45,False,False
-QE-0068,Complaint,CAPA,2026-06-30,2026-07-14,Closed,High,Data / Documentation,30,14,False,True
-QE-0069,Investigation,Complaint Handling,2025-11-03,2025-12-11,Closed,Medium,Procedure,45,38,False,False
-QE-0070,Investigation,Complaint Handling,2026-06-18,,Open,Critical,Procedure,15,87,True,True
-QE-0071,Investigation,Document Control,2026-08-10,,Open,High,Equipment,30,34,True,True
-QE-0072,Complaint,Complaint Handling,2026-04-18,2026-07-04,Closed,Medium,Process Design,45,77,False,False
-QE-0073,Complaint,Change Management,2026-07-02,,Open,Medium,Process Design,45,73,True,False
-QE-0074,Complaint,Change Management,2026-08-14,2026-09-08,Closed,Critical,Process Design,15,25,False,True
-QE-0075,Complaint,CAPA,2026-08-10,2026-08-22,Closed,High,Equipment,30,12,False,True
-QE-0076,Investigation,CAPA,2026-01-28,2026-04-24,Closed,Critical,Procedure,15,86,False,True
-QE-0077,Complaint,QMS Metrics,2026-04-05,2026-04-22,Closed,Low,Training,60,17,False,False
-QE-0078,Investigation,Document Control,2026-06-06,,Open,High,Data / Documentation,30,99,True,True
+QE-0067,Complaint,CAPA,2026-04-05,2026-04-23,Closed,Medium,Data / Documentation,45,18,False,False
+QE-0068,Complaint,CAPA,2025-10-03,2025-11-04,Closed,High,Data / Documentation,30,32,False,True
+QE-0069,Investigation,Complaint Handling,2026-06-09,2026-08-01,Closed,Medium,Procedure,45,53,False,False
+QE-0070,Investigation,Complaint Handling,2026-09-06,,Open,Critical,Procedure,15,7,False,True
+QE-0071,Investigation,Document Control,2026-09-10,,Open,High,Equipment,30,3,False,True
+QE-0072,Complaint,Complaint Handling,2025-11-15,2026-02-01,Closed,Medium,Process Design,45,78,False,False
+QE-0073,Complaint,Change Management,2026-08-10,,Open,Medium,Process Design,45,34,False,False
+QE-0074,Complaint,Change Management,2026-01-23,2026-03-04,Closed,Critical,Process Design,15,40,False,True
+QE-0075,Complaint,CAPA,2026-02-18,2026-04-09,Closed,High,Equipment,30,50,False,True
+QE-0076,Investigation,CAPA,2026-06-28,2026-07-10,Closed,Critical,Procedure,15,12,False,True
+QE-0077,Complaint,QMS Metrics,2026-05-29,2026-07-13,Closed,Low,Training,60,45,False,False
+QE-0078,Investigation,Document Control,2026-09-08,,Open,High,Data / Documentation,30,5,False,True
 QE-0079,Investigation,Investigation / RCA,2026-09-08,,Open,Medium,Training,45,5,False,False
-QE-0080,Investigation,Investigation / RCA,2026-06-24,2026-09-02,Closed,Low,Equipment,60,70,False,False
-QE-0081,Complaint,Investigation / RCA,2026-01-23,2026-02-14,Closed,Medium,Data / Documentation,45,22,False,False
-QE-0082,Investigation,Change Management,2026-01-11,2026-02-21,Closed,Medium,Equipment,45,41,False,False
-QE-0083,Investigation,Supplier Quality,2026-08-03,2026-08-25,Closed,Low,Supplier,60,22,False,False
-QE-0084,Investigation,Investigation / RCA,2026-06-21,2026-07-17,Closed,Medium,Data / Documentation,45,26,False,False
-QE-0085,Complaint,CAPA,2026-09-07,,Open,High,Supplier,30,6,False,True
-QE-0086,Complaint,Document Control,2025-11-03,2025-12-28,Closed,Medium,Data / Documentation,45,55,False,False
-QE-0087,Investigation,Complaint Handling,2025-10-26,2026-01-03,Closed,Medium,Supplier,45,69,False,False
-QE-0088,Complaint,Change Management,2026-04-29,2026-06-19,Closed,Medium,Training,45,51,False,False
-QE-0089,Complaint,Supplier Quality,2026-02-22,2026-04-30,Closed,Medium,Data / Documentation,45,67,False,False
-QE-0090,Investigation,Complaint Handling,2026-05-31,2026-07-04,Closed,High,Data / Documentation,30,34,False,True
-QE-0091,Investigation,Complaint Handling,2026-06-01,2026-07-02,Closed,High,Procedure,30,31,False,True
-QE-0092,Investigation,Complaint Handling,2026-06-30,2026-07-09,Closed,Low,Training,60,9,False,False
-QE-0093,Complaint,Document Control,2026-05-20,,Open,Critical,Supplier,15,116,True,True
-QE-0094,Investigation,Complaint Handling,2026-08-23,2026-09-10,Closed,High,Process Design,30,18,False,True
-QE-0095,Complaint,Investigation / RCA,2026-09-01,,Open,Medium,Procedure,45,12,False,False
-QE-0096,Investigation,Complaint Handling,2026-03-08,2026-04-21,Closed,High,Training,30,44,False,True
-QE-0097,Investigation,Complaint Handling,2026-02-22,2026-04-03,Closed,Low,Procedure,60,40,False,False
-QE-0098,Complaint,Supplier Quality,2026-02-20,2026-05-07,Closed,Critical,Procedure,15,76,False,True
-QE-0099,Complaint,Investigation / RCA,2026-03-27,2026-05-03,Closed,Medium,Supplier,45,37,False,False
-QE-0100,Complaint,Change Management,2026-07-10,2026-08-07,Closed,Medium,Training,45,28,False,False
-QE-0101,Investigation,Change Management,2026-07-12,2026-07-29,Closed,Low,Training,60,17,False,False
-QE-0102,Investigation,Document Control,2025-09-29,2025-10-13,Closed,High,Data / Documentation,30,14,False,True
-QE-0103,Investigation,Complaint Handling,2026-03-11,2026-05-27,Closed,Low,Procedure,60,77,False,False
-QE-0104,Investigation,Document Control,2025-09-29,2025-10-18,Closed,Low,Training,60,19,False,False
-QE-0105,Investigation,Supplier Quality,2026-06-29,2026-08-01,Closed,Low,Process Design,60,33,False,False
-QE-0106,Investigation,Complaint Handling,2026-02-14,2026-05-12,Closed,High,Process Design,30,87,False,True
-QE-0107,Complaint,QMS Metrics,2026-06-14,2026-07-04,Closed,Low,Material,60,20,False,False
-QE-0108,Complaint,Document Control,2026-05-29,2026-08-17,Closed,High,Process Design,30,80,False,True
-QE-0109,Investigation,Investigation / RCA,2026-09-11,,Open,Medium,Data / Documentation,45,2,False,False
-QE-0110,Investigation,Document Control,2026-07-01,2026-09-08,Closed,Low,Equipment,60,69,False,False
-QE-0111,Complaint,Change Management,2026-08-24,2026-09-04,Closed,Low,Supplier,60,11,False,False
-QE-0112,Investigation,Supplier Quality,2025-10-12,2025-12-09,Closed,Low,Process Design,60,58,False,False
-QE-0113,Investigation,Risk Assessment,2026-08-05,,Open,Medium,Material,45,39,False,False
-QE-0114,Investigation,CAPA,2026-04-08,2026-05-29,Closed,High,Equipment,30,51,False,True
-QE-0115,Investigation,QMS Metrics,2026-08-22,,Open,Low,Supplier,60,22,False,False
-QE-0116,Complaint,Investigation / RCA,2025-11-07,2026-02-05,Closed,High,Procedure,30,90,False,True
-QE-0117,Complaint,QMS Metrics,2026-07-06,2026-09-02,Closed,Low,Process Design,60,58,False,False
-QE-0118,Complaint,Supplier Quality,2025-11-15,2026-01-23,Closed,High,Training,30,69,False,True
-QE-0119,Investigation,Investigation / RCA,2026-04-18,2026-06-03,Closed,High,Data / Documentation,30,46,False,True
-QE-0120,Investigation,CAPA,2025-11-07,2025-11-26,Closed,High,Process Design,30,19,False,True
-QE-0121,Investigation,Investigation / RCA,2025-11-11,2026-02-03,Closed,Medium,Material,45,84,False,False
-QE-0122,Complaint,Complaint Handling,2026-01-01,2026-02-05,Closed,High,Material,30,35,False,True
-QE-0123,Complaint,Complaint Handling,2026-02-12,2026-02-23,Closed,Low,Training,60,11,False,False
-QE-0124,Investigation,CAPA,2025-10-06,2025-11-10,Closed,Low,Process Design,60,35,False,False
-QE-0125,Investigation,Complaint Handling,2026-08-05,2026-09-07,Closed,Low,Process Design,60,33,False,False
-QE-0126,Complaint,Complaint Handling,2026-01-09,2026-03-09,Closed,Medium,Training,45,59,False,False
-QE-0127,Complaint,QMS Metrics,2026-08-06,2026-09-06,Closed,High,Procedure,30,31,False,True
-QE-0128,Investigation,Supplier Quality,2026-01-16,2026-03-30,Closed,Medium,Procedure,45,73,False,False
-QE-0129,Complaint,QMS Metrics,2025-11-11,2025-12-05,Closed,High,Equipment,30,24,False,True
-QE-0130,Investigation,Investigation / RCA,2026-06-22,,Open,Low,Data / Documentation,60,83,True,False
-QE-0131,Complaint,Document Control,2026-03-26,2026-04-26,Closed,High,Material,30,31,False,True
-QE-0132,Complaint,Change Management,2026-01-15,2026-03-26,Closed,Low,Data / Documentation,60,70,False,False
-QE-0133,Investigation,Complaint Handling,2026-08-03,,Open,Medium,Material,45,41,False,False
-QE-0134,Complaint,Complaint Handling,2026-05-19,2026-06-18,Closed,High,Training,30,30,False,True
-QE-0135,Complaint,Supplier Quality,2025-10-25,2025-11-06,Closed,Critical,Equipment,15,12,False,True
-QE-0136,Complaint,Complaint Handling,2026-08-12,,Open,Medium,Procedure,45,32,False,False
-QE-0137,Complaint,Change Management,2026-07-11,2026-08-12,Closed,Low,Data / Documentation,60,32,False,False
-QE-0138,Complaint,Risk Assessment,2026-09-06,,Open,Medium,Equipment,45,7,False,False
-QE-0139,Complaint,Complaint Handling,2026-03-06,2026-04-15,Closed,Low,Supplier,60,40,False,False
-QE-0140,Complaint,Complaint Handling,2026-06-13,,Open,High,Equipment,30,92,True,True
-QE-0141,Complaint,Risk Assessment,2026-05-06,2026-06-16,Closed,High,Procedure,30,41,False,True
-QE-0142,Investigation,Change Management,2025-12-16,2026-02-21,Closed,Low,Training,60,67,False,False
-QE-0143,Investigation,Complaint Handling,2026-08-25,,Open,Low,Procedure,60,19,False,False
-QE-0144,Complaint,Document Control,2026-01-09,2026-03-07,Closed,Low,Procedure,60,57,False,False
-QE-0145,Complaint,Document Control,2026-07-30,2026-08-24,Closed,Critical,Process Design,15,25,False,True
-QE-0146,Investigation,Change Management,2026-06-22,,Open,Medium,Process Design,45,83,True,False
-QE-0147,Investigation,Supplier Quality,2026-04-28,2026-06-20,Closed,High,Equipment,30,53,False,True
-QE-0148,Investigation,Investigation / RCA,2026-09-05,,Open,Medium,Supplier,45,8,False,False
-QE-0149,Complaint,Complaint Handling,2025-09-17,2025-12-04,Closed,Medium,Process Design,45,78,False,False
-QE-0150,Complaint,Change Management,2026-02-04,2026-02-14,Closed,Low,Equipment,60,10,False,False
-QE-0151,Complaint,Investigation / RCA,2025-09-17,2025-10-31,Closed,Critical,Procedure,15,44,False,True
-QE-0152,Complaint,Supplier Quality,2026-05-16,2026-08-05,Closed,Medium,Procedure,45,81,False,False
-QE-0153,Investigation,Document Control,2025-12-09,2026-02-16,Closed,Medium,Process Design,45,69,False,False
-QE-0154,Complaint,Complaint Handling,2026-05-20,2026-08-18,Closed,Medium,Supplier,45,90,False,False
-QE-0155,Complaint,Change Management,2026-03-21,2026-05-11,Closed,Medium,Procedure,45,51,False,False
-QE-0156,Complaint,Investigation / RCA,2026-09-06,,Open,Critical,Data / Documentation,15,7,False,True
-QE-0157,Investigation,Document Control,2026-05-12,2026-06-18,Closed,Low,Process Design,60,37,False,False
-QE-0158,Complaint,Investigation / RCA,2025-10-01,2025-12-07,Closed,Medium,Procedure,45,67,False,False
-QE-0159,Investigation,Supplier Quality,2026-04-20,2026-06-27,Closed,Medium,Training,45,68,False,False
-QE-0160,Complaint,Change Management,2025-12-12,2026-01-21,Closed,Medium,Supplier,45,40,False,False
-QE-0161,Investigation,CAPA,2026-04-07,2026-06-28,Closed,Low,Process Design,60,82,False,False
-QE-0162,Complaint,Supplier Quality,2026-02-11,2026-03-02,Closed,Low,Procedure,60,19,False,False
-QE-0163,Investigation,QMS Metrics,2025-12-18,2026-02-12,Closed,Medium,Supplier,45,56,False,False
-QE-0164,Investigation,Change Management,2026-03-01,2026-05-07,Closed,Medium,Training,45,67,False,False
-QE-0165,Investigation,QMS Metrics,2025-10-15,2025-11-18,Closed,Medium,Supplier,45,34,False,False
-QE-0166,Investigation,Risk Assessment,2026-08-27,,Open,Medium,Training,45,17,False,False
-QE-0167,Investigation,CAPA,2026-04-07,2026-05-12,Closed,Medium,Data / Documentation,45,35,False,False
-QE-0168,Investigation,Change Management,2025-12-27,2026-02-06,Closed,Medium,Training,45,41,False,False
-QE-0169,Investigation,Complaint Handling,2026-03-17,2026-04-29,Closed,Medium,Training,45,43,False,False
-QE-0170,Complaint,QMS Metrics,2026-05-27,2026-06-13,Closed,Low,Supplier,60,17,False,False
-QE-0171,Investigation,Change Management,2026-08-31,,Open,Medium,Procedure,45,13,False,False
-QE-0172,Investigation,CAPA,2026-01-06,2026-01-24,Closed,Medium,Procedure,45,18,False,False
-QE-0173,Investigation,Complaint Handling,2026-01-10,2026-03-19,Closed,Low,Training,60,68,False,False
-QE-0174,Investigation,Document Control,2026-01-07,2026-02-08,Closed,Medium,Process Design,45,32,False,False
-QE-0175,Complaint,CAPA,2026-09-12,,Open,Medium,Equipment,45,1,False,False
-QE-0176,Investigation,Supplier Quality,2025-11-19,2025-12-12,Closed,Low,Material,60,23,False,False
-QE-0177,Complaint,Complaint Handling,2026-05-20,,Open,Medium,Training,45,116,True,False
-QE-0178,Complaint,Risk Assessment,2025-10-31,2026-01-09,Closed,Medium,Training,45,70,False,False
-QE-0179,Investigation,Complaint Handling,2026-05-31,2026-08-22,Closed,High,Procedure,30,83,False,True
-QE-0180,Complaint,Investigation / RCA,2026-01-05,2026-01-26,Closed,Medium,Data / Documentation,45,21,False,False
+QE-0080,Investigation,Investigation / RCA,2025-11-03,2025-12-11,Closed,Low,Equipment,60,38,False,False
+QE-0081,Complaint,Investigation / RCA,2026-02-03,2026-03-26,Closed,Medium,Data / Documentation,45,51,False,False
+QE-0082,Investigation,Change Management,2025-12-13,2026-02-20,Closed,Medium,Equipment,45,69,False,False
+QE-0083,Investigation,Supplier Quality,2026-05-14,2026-07-31,Closed,Low,Supplier,60,78,False,False
+QE-0084,Investigation,Investigation / RCA,2026-04-18,2026-07-04,Closed,Medium,Data / Documentation,45,77,False,False
+QE-0085,Complaint,CAPA,2026-08-31,,Open,High,Supplier,30,13,False,True
+QE-0086,Complaint,Document Control,2026-07-17,2026-09-01,Closed,Medium,Data / Documentation,45,46,False,False
+QE-0087,Investigation,Complaint Handling,2026-08-14,2026-09-08,Closed,Medium,Supplier,45,25,False,False
+QE-0088,Complaint,Change Management,2026-08-10,2026-08-22,Closed,Medium,Training,45,12,False,False
+QE-0089,Complaint,Supplier Quality,2026-01-28,2026-04-24,Closed,Medium,Data / Documentation,45,86,False,False
+QE-0090,Investigation,Complaint Handling,2026-04-05,2026-04-22,Closed,High,Data / Documentation,30,17,False,True
+QE-0091,Investigation,Complaint Handling,2026-06-05,2026-08-26,Closed,High,Procedure,30,82,False,True
+QE-0092,Investigation,Complaint Handling,2025-12-16,2025-12-31,Closed,Low,Training,60,15,False,False
+QE-0093,Complaint,Document Control,2026-09-07,,Open,Critical,Supplier,15,6,False,True
+QE-0094,Investigation,Complaint Handling,2026-05-25,2026-06-15,Closed,High,Process Design,30,21,False,True
+QE-0095,Complaint,Investigation / RCA,2026-08-05,,Open,Medium,Procedure,45,39,False,False
+QE-0096,Investigation,Complaint Handling,2026-01-23,2026-02-14,Closed,High,Training,30,22,False,True
+QE-0097,Investigation,Complaint Handling,2026-01-11,2026-02-21,Closed,Low,Procedure,60,41,False,False
+QE-0098,Complaint,Supplier Quality,2026-08-03,2026-08-25,Closed,Critical,Procedure,15,22,False,True
+QE-0099,Complaint,Investigation / RCA,2026-06-21,2026-07-17,Closed,Medium,Supplier,45,26,False,False
+QE-0100,Complaint,Change Management,2025-10-24,2025-12-29,Closed,Medium,Training,45,66,False,False
+QE-0101,Investigation,Change Management,2026-07-09,2026-09-05,Closed,Low,Training,60,58,False,False
+QE-0102,Investigation,Document Control,2026-02-07,2026-04-28,Closed,High,Data / Documentation,30,80,False,True
+QE-0103,Investigation,Complaint Handling,2025-12-09,2026-01-13,Closed,Low,Procedure,60,35,False,False
+QE-0104,Investigation,Document Control,2026-02-20,2026-04-12,Closed,Low,Training,60,51,False,False
+QE-0105,Investigation,Supplier Quality,2025-12-18,2026-01-14,Closed,Low,Process Design,60,27,False,False
+QE-0106,Investigation,Complaint Handling,2026-05-01,2026-05-28,Closed,High,Process Design,30,27,False,True
+QE-0107,Complaint,QMS Metrics,2026-05-14,2026-06-03,Closed,Low,Material,60,20,False,False
+QE-0108,Complaint,Document Control,2026-08-12,2026-09-12,Closed,High,Process Design,30,31,False,True
+QE-0109,Investigation,Investigation / RCA,2026-09-09,,Open,Medium,Data / Documentation,45,4,False,False
+QE-0110,Investigation,Document Control,2025-10-21,2025-10-28,Closed,Low,Equipment,60,7,False,False
+QE-0111,Complaint,Change Management,2025-11-29,2026-01-02,Closed,Low,Supplier,60,34,False,False
+QE-0112,Investigation,Supplier Quality,2026-02-26,2026-03-28,Closed,Low,Process Design,60,30,False,False
+QE-0113,Investigation,Risk Assessment,2026-08-21,,Open,Medium,Material,45,23,False,False
+QE-0114,Investigation,CAPA,2026-03-21,2026-05-11,Closed,High,Equipment,30,51,False,True
+QE-0115,Investigation,QMS Metrics,2026-08-20,,Open,Low,Supplier,60,24,False,False
+QE-0116,Complaint,Investigation / RCA,2026-02-20,2026-05-07,Closed,High,Procedure,30,76,False,True
+QE-0117,Complaint,QMS Metrics,2026-03-27,2026-05-03,Closed,Low,Process Design,60,37,False,False
+QE-0118,Complaint,Supplier Quality,2026-07-10,2026-08-07,Closed,High,Training,30,28,False,True
+QE-0119,Investigation,Investigation / RCA,2026-07-12,2026-07-29,Closed,High,Data / Documentation,30,17,False,True
+QE-0120,Investigation,CAPA,2025-09-29,2025-10-13,Closed,High,Process Design,30,14,False,True
+QE-0121,Investigation,Investigation / RCA,2026-03-11,2026-05-27,Closed,Medium,Material,45,77,False,False
+QE-0122,Complaint,Complaint Handling,2025-09-29,2025-10-18,Closed,High,Material,30,19,False,True
+QE-0123,Complaint,Complaint Handling,2026-06-29,2026-08-01,Closed,Low,Training,60,33,False,False
+QE-0124,Investigation,CAPA,2026-02-14,2026-05-12,Closed,Low,Process Design,60,87,False,False
+QE-0125,Investigation,Complaint Handling,2026-06-14,2026-07-04,Closed,Low,Process Design,60,20,False,False
+QE-0126,Complaint,Complaint Handling,2026-05-29,2026-08-17,Closed,Medium,Training,45,80,False,False
+QE-0127,Complaint,QMS Metrics,2026-08-14,2026-08-30,Closed,High,Procedure,30,16,False,True
+QE-0128,Investigation,Supplier Quality,2026-07-14,2026-07-29,Closed,Medium,Procedure,45,15,False,False
+QE-0129,Complaint,QMS Metrics,2025-10-11,2025-10-18,Closed,High,Equipment,30,7,False,True
+QE-0130,Investigation,Investigation / RCA,2026-08-24,,Open,Low,Data / Documentation,60,20,False,False
+QE-0131,Complaint,Document Control,2025-10-12,2025-12-09,Closed,High,Material,30,58,False,True
+QE-0132,Complaint,Change Management,2026-07-31,2026-08-24,Closed,Low,Data / Documentation,60,24,False,False
+QE-0133,Investigation,Complaint Handling,2026-07-31,,Open,Medium,Material,45,44,False,False
+QE-0134,Complaint,Complaint Handling,2026-04-08,2026-05-29,Closed,High,Training,30,51,False,True
+QE-0135,Complaint,Supplier Quality,2026-02-21,2026-04-24,Closed,Critical,Equipment,15,62,False,True
+QE-0136,Complaint,Complaint Handling,2026-09-04,,Open,Medium,Procedure,45,9,False,False
+QE-0137,Complaint,Change Management,2025-11-07,2026-02-05,Closed,Low,Data / Documentation,60,90,False,False
+QE-0138,Complaint,Risk Assessment,2026-07-23,,Open,Medium,Equipment,45,52,True,False
+QE-0139,Complaint,Complaint Handling,2025-11-14,2026-01-28,Closed,Low,Supplier,60,75,False,False
+QE-0140,Complaint,Complaint Handling,2026-07-11,,Open,High,Equipment,30,64,True,True
+QE-0141,Complaint,Risk Assessment,2026-04-18,2026-06-03,Closed,High,Procedure,30,46,False,True
+QE-0142,Investigation,Change Management,2025-11-07,2025-11-26,Closed,Low,Training,60,19,False,False
+QE-0143,Investigation,Complaint Handling,2026-07-25,,Open,Low,Procedure,60,50,False,False
+QE-0144,Complaint,Document Control,2025-10-10,2025-12-13,Closed,Low,Procedure,60,64,False,False
+QE-0145,Complaint,Document Control,2026-04-28,2026-06-20,Closed,Critical,Process Design,15,53,False,True
+QE-0146,Investigation,Change Management,2026-07-27,,Open,Medium,Process Design,45,48,True,False
+QE-0147,Investigation,Supplier Quality,2025-10-06,2025-11-10,Closed,High,Equipment,30,35,False,True
+QE-0148,Investigation,Investigation / RCA,2026-07-27,,Open,Medium,Supplier,45,48,True,False
+QE-0149,Complaint,Complaint Handling,2025-11-23,2026-01-24,Closed,Medium,Process Design,45,62,False,False
+QE-0150,Complaint,Change Management,2026-01-21,2026-02-01,Closed,Low,Equipment,60,11,False,False
+QE-0151,Complaint,Investigation / RCA,2025-12-08,2026-02-06,Closed,Critical,Procedure,15,60,False,True
+QE-0152,Complaint,Supplier Quality,2025-11-23,2026-02-07,Closed,Medium,Procedure,45,76,False,False
+QE-0153,Investigation,Document Control,2026-06-12,2026-07-06,Closed,Medium,Process Design,45,24,False,False
+QE-0154,Complaint,Complaint Handling,2025-10-09,2025-11-29,Closed,Medium,Supplier,45,51,False,False
+QE-0155,Complaint,Change Management,2026-03-26,2026-04-26,Closed,Medium,Procedure,45,31,False,False
+QE-0156,Complaint,Investigation / RCA,2026-07-31,,Open,Critical,Data / Documentation,15,44,True,True
+QE-0157,Investigation,Document Control,2025-12-07,2025-12-14,Closed,Low,Process Design,60,7,False,False
+QE-0158,Complaint,Investigation / RCA,2026-02-14,2026-05-15,Closed,Medium,Procedure,45,90,False,False
+QE-0159,Investigation,Supplier Quality,2026-05-19,2026-06-18,Closed,Medium,Training,45,30,False,False
+QE-0160,Complaint,Change Management,2025-10-25,2025-11-06,Closed,Medium,Supplier,45,12,False,False
+QE-0161,Investigation,CAPA,2026-04-09,2026-05-24,Closed,Low,Process Design,60,45,False,False
+QE-0162,Complaint,Supplier Quality,2025-11-21,2025-12-08,Closed,Low,Procedure,60,17,False,False
+QE-0163,Investigation,QMS Metrics,2026-03-27,2026-04-15,Closed,Medium,Supplier,45,19,False,False
+QE-0164,Investigation,Change Management,2025-11-25,2026-01-24,Closed,Medium,Training,45,60,False,False
+QE-0165,Investigation,QMS Metrics,2026-03-06,2026-04-15,Closed,Medium,Supplier,45,40,False,False
+QE-0166,Investigation,Risk Assessment,2026-09-06,,Open,Medium,Training,45,7,False,False
+QE-0167,Investigation,CAPA,2025-10-10,2025-12-10,Closed,Medium,Data / Documentation,45,61,False,False
+QE-0168,Investigation,Change Management,2026-05-06,2026-06-16,Closed,Medium,Training,45,41,False,False
+QE-0169,Investigation,Complaint Handling,2025-12-16,2026-02-21,Closed,Medium,Training,45,67,False,False
+QE-0170,Complaint,QMS Metrics,2026-03-18,2026-04-19,Closed,Low,Supplier,60,32,False,False
+QE-0171,Investigation,Change Management,2026-08-14,,Open,Medium,Procedure,45,30,False,False
+QE-0172,Investigation,CAPA,2026-01-09,2026-03-07,Closed,Medium,Procedure,45,57,False,False
+QE-0173,Investigation,Complaint Handling,2026-07-30,2026-08-24,Closed,Low,Training,60,25,False,False
+QE-0174,Investigation,Document Control,2026-01-24,2026-04-20,Closed,Medium,Process Design,45,86,False,False
+QE-0175,Complaint,CAPA,2026-08-20,,Open,Medium,Equipment,45,24,False,False
+QE-0176,Investigation,Supplier Quality,2026-04-28,2026-06-20,Closed,Low,Material,60,53,False,False
+QE-0177,Complaint,Complaint Handling,2026-09-05,,Open,Medium,Training,45,8,False,False
+QE-0178,Complaint,Risk Assessment,2026-07-24,2026-08-30,Closed,Medium,Training,45,37,False,False
+QE-0179,Investigation,Complaint Handling,2025-09-17,2025-12-04,Closed,High,Procedure,30,78,False,True
+QE-0180,Complaint,Investigation / RCA,2026-02-04,2026-02-14,Closed,Medium,Data / Documentation,45,10,False,False
