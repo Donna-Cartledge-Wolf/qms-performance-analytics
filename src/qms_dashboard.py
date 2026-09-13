@@ -15,6 +15,111 @@ st.set_page_config(
     layout="wide",
 )
 
+# ------------------------------------------------------------
+# Presentation styling
+# ------------------------------------------------------------
+
+# Typography system: one clear hierarchy across Streamlit and Matplotlib.
+# Section titles use Streamlit/CSS. Chart text uses one shared body size.
+CHART_BODY_SIZE = 11
+
+plt.rcParams.update({
+    "font.size": CHART_BODY_SIZE,
+    "axes.labelsize": CHART_BODY_SIZE,
+    "xtick.labelsize": CHART_BODY_SIZE,
+    "ytick.labelsize": CHART_BODY_SIZE,
+    "legend.fontsize": CHART_BODY_SIZE,
+})
+
+st.markdown(
+    """
+    <style>
+    :root {
+        --wa-title-size: 30px;
+        --wa-section-size: 22px;
+        --wa-subsection-size: 18px;
+        --wa-body-size: 14px;
+        --wa-caption-size: 13px;
+        --wa-metric-value-size: 26px;
+    }
+
+    h1 {
+        font-size: var(--wa-title-size) !important;
+        line-height: 1.18 !important;
+        margin-bottom: 0.35rem !important;
+    }
+    h2 {
+        font-size: var(--wa-section-size) !important;
+        line-height: 1.22 !important;
+        margin-top: 0.9rem !important;
+        margin-bottom: 0.55rem !important;
+    }
+    h3 {
+        font-size: var(--wa-subsection-size) !important;
+        line-height: 1.22 !important;
+        margin-top: 0.7rem !important;
+        margin-bottom: 0.4rem !important;
+    }
+
+    /* One body-text size everywhere outside intentional KPI values. */
+    p, li, label,
+    [data-testid="stMarkdownContainer"],
+    [data-testid="stMetricLabel"] p,
+    [data-testid="stAlert"] p {
+        font-size: var(--wa-body-size) !important;
+        line-height: 1.42 !important;
+    }
+
+    [data-testid="stCaptionContainer"] p {
+        font-size: var(--wa-caption-size) !important;
+        line-height: 1.38 !important;
+    }
+
+    [data-testid="stMetricValue"] {
+        font-size: var(--wa-metric-value-size) !important;
+        line-height: 1.1 !important;
+    }
+
+    /* Keep dataframe text visually aligned with dashboard body copy. */
+    [data-testid="stDataFrame"] {
+        font-size: var(--wa-body-size) !important;
+    }
+    [data-testid="stDataFrame"] * {
+        font-size: var(--wa-body-size) !important;
+    }
+
+    /* All chart titles use the same Streamlit-rendered typography. */
+    .chart-title {
+        font-size: var(--wa-subsection-size);
+        line-height: 1.22;
+        font-weight: 600;
+        text-align: center;
+        margin: 0.15rem 0 0.45rem 0;
+    }
+
+    @media print {
+        :root {
+            --wa-title-size: 22pt;
+            --wa-section-size: 16pt;
+            --wa-subsection-size: 13pt;
+            --wa-body-size: 10.5pt;
+            --wa-caption-size: 9.5pt;
+            --wa-metric-value-size: 18pt;
+        }
+        .print-page-break {
+            break-before: page;
+            page-break-before: always;
+        }
+        h1, h2, h3, .chart-title {
+            break-after: avoid-page;
+            page-break-after: avoid;
+        }
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 
 # ------------------------------------------------------------
 # Load validated synthetic data
@@ -360,50 +465,61 @@ st.divider()
 # Root-cause frequency and risk
 # ------------------------------------------------------------
 
+# Keep this section heading with its content when printing to PDF.
+st.markdown('<div class="print-page-break"></div>', unsafe_allow_html=True)
 st.header("Root-Cause Frequency and Risk")
 
-left, right = st.columns([1.15, 1])
+root_outer_left, root_center, root_outer_right = st.columns([0.35, 5, 0.35])
 
-with left:
-    plot_data = root_summary.sort_values("total_events")
+with root_center:
+    root_chart_col, root_table_col = st.columns([1.15, 1])
 
-    fig, ax = plt.subplots(figsize=(8, 4.8))
+    with root_chart_col:
+        plot_data = root_summary.sort_values("total_events")
 
-    bars = ax.barh(
-        plot_data["root_cause_category"],
-        plot_data["total_events"],
-    )
+        fig, ax = plt.subplots(figsize=(6.3, 3.8))
 
-    ax.bar_label(bars, padding=3)
-    ax.set_xlabel("Quality Events")
-    ax.set_ylabel("")
-    ax.set_title("Quality Events by Root-Cause Category")
+        bars = ax.barh(
+            plot_data["root_cause_category"],
+            plot_data["total_events"],
+        )
 
-    st.pyplot(fig)
-    plt.close(fig)
+        ax.bar_label(bars, padding=3, fontsize=CHART_BODY_SIZE)
+        ax.set_xlabel("Quality Events", fontsize=CHART_BODY_SIZE)
+        ax.set_ylabel("")
+        ax.tick_params(axis="both", labelsize=CHART_BODY_SIZE)
 
-with right:
-    root_display = clean_table(
-        root_summary,
-        [
-            "root_cause_category",
-            "total_events",
-            "open_events",
-            "overdue_events",
-            "high_risk_open_events",
-            "frequency_pct",
-        ],
-        percent_columns=["frequency_pct"],
-    )
+        st.markdown(
+            '<div class="chart-title">Quality Events by Root-Cause Category</div>',
+            unsafe_allow_html=True,
+        )
+        st.pyplot(fig, width="stretch")
+        plt.close(fig)
 
-    st.dataframe(
-        root_display,
-        use_container_width=True,
-        hide_index=True,
-    )
+    with root_table_col:
+        root_display = clean_table(
+            root_summary,
+            [
+                "root_cause_category",
+                "total_events",
+                "open_events",
+                "overdue_events",
+                "high_risk_open_events",
+                "frequency_pct",
+            ],
+            percent_columns=["frequency_pct"],
+        )
 
+        st.dataframe(
+            root_display,
+            use_container_width=True,
+            hide_index=True,
+        )
 
-st.subheader("Root-Cause Trend by Month")
+st.markdown(
+    '<div class="chart-title">Root-Cause Trend by Month</div>',
+    unsafe_allow_html=True,
+)
 
 root_trend = root_monthly.pivot(
     index="opened_month",
@@ -418,30 +534,38 @@ root_trend.index = pd.to_datetime(
 
 root_trend = root_trend.sort_index()
 
-fig, ax = plt.subplots(figsize=(12, 5))
+fig, ax = plt.subplots(figsize=(8, 3.6))
 
 for column in root_trend.columns:
     ax.plot(
         root_trend.index,
         root_trend[column],
         marker="o",
-        linewidth=1.5,
+        linewidth=1.4,
+        markersize=4,
         label=column,
     )
 
-ax.set_ylabel("Quality Events")
+ax.set_ylabel("Quality Events", fontsize=CHART_BODY_SIZE)
 ax.set_xlabel("")
+ax.tick_params(axis="both", labelsize=CHART_BODY_SIZE)
 ax.grid(axis="y", alpha=0.25)
 ax.legend(
     loc="upper center",
-    bbox_to_anchor=(0.5, -0.18),
+    bbox_to_anchor=(0.5, -0.20),
     ncol=4,
     frameon=False,
+    fontsize=CHART_BODY_SIZE,
 )
 
 fig.autofmt_xdate(rotation=45)
+fig.tight_layout()
 
-st.pyplot(fig)
+trend_left, trend_center, trend_right = st.columns([1, 3.4, 1])
+
+with trend_center:
+    st.pyplot(fig, width=780)
+
 plt.close(fig)
 
 st.divider()
@@ -520,19 +644,28 @@ change_counts = (
     )
 )
 
-fig, ax = plt.subplots(figsize=(10, 4))
+fig, ax = plt.subplots(figsize=(6.5, 3.1))
 
 bars = ax.bar(
     change_counts.index,
     change_counts.values,
 )
 
-ax.bar_label(bars, padding=3)
-ax.set_ylabel("Changes")
+ax.bar_label(bars, padding=3, fontsize=CHART_BODY_SIZE)
+ax.set_ylabel("Changes", fontsize=CHART_BODY_SIZE)
 ax.set_xlabel("")
-ax.set_title("Change Status")
+ax.tick_params(axis="both", labelsize=CHART_BODY_SIZE)
+fig.tight_layout()
 
-st.pyplot(fig)
+change_left, change_center, change_right = st.columns([1, 2.5, 1])
+
+with change_center:
+    st.markdown(
+        '<div class="chart-title">Change Status</div>',
+        unsafe_allow_html=True,
+    )
+    st.pyplot(fig, width=650)
+
 plt.close(fig)
 
 m1, m2, m3 = st.columns(3)
@@ -609,7 +742,7 @@ capability = training.sort_values(
     ascending=True,
 ).copy()
 
-fig, ax = plt.subplots(figsize=(10, 5))
+fig, ax = plt.subplots(figsize=(8, 4))
 
 bars = ax.barh(
     capability["process"],
@@ -623,6 +756,7 @@ ax.bar_label(
         for value in capability["coverage_pct"]
     ],
     padding=3,
+    fontsize=CHART_BODY_SIZE,
 )
 
 ax.axvline(
@@ -633,12 +767,21 @@ ax.axvline(
 )
 
 ax.set_xlim(0, 110)
-ax.set_xlabel("Coverage")
+ax.set_xlabel("Coverage", fontsize=CHART_BODY_SIZE)
 ax.set_ylabel("")
-ax.set_title("Capability Coverage by QMS Process")
-ax.legend(frameon=False)
+ax.tick_params(axis="both", labelsize=CHART_BODY_SIZE)
+ax.legend(frameon=False, fontsize=CHART_BODY_SIZE)
+fig.tight_layout()
 
-st.pyplot(fig)
+cap_left, cap_center, cap_right = st.columns([1, 4, 1])
+
+with cap_center:
+    st.markdown(
+        '<div class="chart-title">Capability Coverage by QMS Process</div>',
+        unsafe_allow_html=True,
+    )
+    st.pyplot(fig, width=900)
+
 plt.close(fig)
 
 training_display = clean_table(
