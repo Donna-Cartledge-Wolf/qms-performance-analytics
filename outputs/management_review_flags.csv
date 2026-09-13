@@ -1,0 +1,7 @@
+kpi,value,unit,target,direction,status,management_interpretation
+Overdue quality events,20.0,%,10,max,ACTION,Open quality-event aging requires review.
+Overdue CAPAs,11.1,%,10,max,ACTION,CAPA backlog requires prioritization.
+CAPA effectiveness,91.0,%,90,min,PASS,Assess recurrence and effectiveness-check outcomes.
+Median change cycle,26.0,days,30,max,PASS,Review change implementation cycle time.
+Capability coverage,90.8,%,95,min,ACTION,Cross-training and backup coverage require attention.
+Single-point-of-failure exposure,12.5,%,10,max,ACTION,Reduce dependency on single qualified personnel.

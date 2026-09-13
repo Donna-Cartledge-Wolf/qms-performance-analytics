@@ -1,0 +1,2 @@
+total_quality_events,open_quality_events,overdue_quality_events,overdue_quality_event_pct,high_risk_open_quality_events,total_capas,open_capas,overdue_capas,overdue_capa_pct,capa_effectiveness_pct,closed_changes,follow_up_pending_changes,in_progress_changes,high_risk_not_closed_changes,median_change_cycle_days,mean_training_coverage_pct,single_point_failure_processes,single_point_failure_pct
+180,40,8,20.0,11,95,18,2,11.1,91.0,72,21,27,6,26.0,90.8,1,12.5
