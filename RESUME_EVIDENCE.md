@@ -8,18 +8,21 @@ Only results that are reproducible, technically validated, independently reviewe
 
 ## Project Scope
 
-Wolf Analytics developed a Python-based QMS performance and change management analytics prototype using 100% synthetic data.
+Wolf Analytics developed a Python-based QMS performance and change management analytics workflow using 100% synthetic data.
 
 The project evaluates:
 
 - Quality event aging and overdue status
-- High-risk open events
+- High-risk open quality events
 - CAPA aging and effectiveness
 - Change management cycle time and follow-up
+- Root cause frequency, risk, and monthly trends
 - Risk prioritization
 - Training and cross-training coverage
 - Single-point-of-failure exposure
-- Management review decision support
+- Management priorities and decision support
+
+The project also includes an interactive management review dashboard that brings these measures together in a single quality systems performance view.
 
 No employer, client, patient, sponsor, confidential, proprietary, or personally identifiable data are used.
 
@@ -40,8 +43,13 @@ The validated synthetic QMS baseline contains:
 - 27 changes in progress
 - 6 high-risk changes not closed
 - 26-day median change implementation cycle
-- 90.8% mean training and cross-training coverage
+- 90.8% mean organizational capability coverage
 - 1 identified single-point-of-failure dependency
+
+The management review logic classified:
+
+- 4 KPI areas as requiring management action
+- 2 KPI areas as meeting the portfolio target
 
 Independent reconciliation confirmed the calculated KPI values.
 
@@ -54,25 +62,30 @@ The synthetic dataset passed automated integrity checks for:
 - Overdue calculations
 - CAPA lifecycle logic
 - Change management lifecycle logic
-- Training coverage calculations
+- Training and capability coverage calculations
+- Single-point-of-failure logic
 
-Final integrity QC returned no identified structural inconsistencies.
+Automated integrity QC found no structural inconsistencies.
 
-The resulting KPI values were also independently recalculated and matched the primary KPI engine results.
+The resulting KPI values were independently recalculated and matched the primary KPI engine results. The dataset, KPI outputs, root cause analyses, and dashboard presentation were also reviewed for operational plausibility.
 
 ## Safe Resume Wording
 
 ### Concise version
 
-- Developed a Python-based QMS performance analytics prototype using synthetic data to evaluate quality event aging, CAPA effectiveness, change management performance, risk, and organizational capability.
+- Developed a Python-based QMS performance analytics workflow using synthetic data to evaluate quality event aging, CAPA effectiveness, change management performance, root cause trends, risk, and organizational capability.
 
 ### Quantified version
 
-- Developed and validated a Python-based QMS performance analytics prototype using 100% synthetic data, integrating 180 quality events, 95 CAPAs, change management metrics, and training coverage into management review KPIs and risk-based decision support.
+- Developed and validated a Python-based QMS performance analytics workflow using 100% synthetic data, integrating 180 quality events, 95 CAPAs, change management metrics, root cause analysis, and organizational capability data into management review KPIs and risk-based decision support.
 
 ### Management review version
 
-- Built a synthetic QMS management review analytics workflow that identified overdue quality events and CAPAs, high-risk open items, change follow-up needs, capability gaps, and single-point-of-failure risk from validated quality system data.
+- Built an interactive QMS management review analytics dashboard using validated synthetic data to identify overdue quality events and CAPAs, high-risk open items, change follow-up needs, root cause patterns, capability gaps, and single-point-of-failure risk.
+
+### Data analytics version
+
+- Built Python analytics and management review visualizations for synthetic QMS data, combining automated QC, KPI monitoring, root cause analysis, risk prioritization, change management metrics, and organizational capability assessment.
 
 ## Evidence Rule
 
@@ -82,6 +95,6 @@ A numerical or performance claim may be used professionally only when it is:
 2. Technically validated
 3. Independently reviewed for plausibility
 4. Traceable to the underlying synthetic dataset
-5. Clearly represented as portfolio or synthetic-data work when context requires it
+5. Clearly represented as portfolio or synthetic data work when context requires it
 
 Project metrics describe the synthetic scenario and are not presented as employer performance results, industry benchmarks, or regulatory acceptance criteria.
