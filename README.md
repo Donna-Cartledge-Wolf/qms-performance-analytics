@@ -22,6 +22,12 @@ The workflow includes:
 - Training and organizational capability assessment
 - Interactive Streamlit dashboard
 
+## Management Review Report
+
+A formatted management review report generated from the interactive dashboard is available here:
+
+[View the QMS Management Review Report](outputs/Wolf_Analytics_QMS_Management_Review.pdf)
+
 ## Management Review Focus
 
 The analysis evaluates:
