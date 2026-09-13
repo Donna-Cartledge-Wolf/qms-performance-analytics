@@ -1,0 +1,9 @@
+process,qualified_personnel,required_coverage,backup_personnel,coverage_pct,single_point_failure
+Complaint Handling,5,6,4,83.3,False
+Investigation / RCA,5,5,4,100.0,False
+CAPA,1,1,0,100.0,True
+Change Management,4,5,3,80.0,False
+Supplier Quality,5,6,4,83.3,False
+QMS Metrics,4,5,3,80.0,False
+Document Control,5,5,4,100.0,False
+Risk Assessment,4,4,3,100.0,False
