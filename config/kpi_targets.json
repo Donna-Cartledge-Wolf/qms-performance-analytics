@@ -1,0 +1,8 @@
+{
+  "max_overdue_quality_event_pct": 10,
+  "max_overdue_capa_pct": 10,
+  "min_capa_effectiveness_pct": 90,
+  "max_median_change_cycle_days": 30,
+  "min_training_coverage_pct": 95,
+  "max_single_point_failure_pct": 10
+}
