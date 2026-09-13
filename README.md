@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/Wolf_Analytics_Logo.png" alt="Wolf Analytics logo" width="240">
+</p>
+
 # Wolf Analytics: QMS Performance & Change Management Analytics
 
 Portfolio project using 100% synthetic data to demonstrate quality systems analytics, performance monitoring, and management review decision support.
