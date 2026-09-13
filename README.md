@@ -8,7 +8,7 @@ Python-based portfolio project using 100% synthetic data to demonstrate quality 
 
 ## Project Overview
 
-The project models a realistic but intentionally imperfect QMS environment and converts synthetic quality records into management-level performance measures.
+The project models a realistic but intentionally imperfect QMS environment and converts synthetic quality records into clear performance measures for management review.
 
 The workflow includes:
 
@@ -60,7 +60,7 @@ The validated synthetic QMS scenario contains:
 - 6 high-risk changes not closed
 - 26-day median change implementation cycle
 - 90.8% mean organizational capability coverage
-- 1 identified single-point-of-failure dependency
+- 1 identified single point of failure
 
 The management review logic classified:
 
@@ -93,9 +93,9 @@ The project uses two complementary QC steps:
 1. Automated technical QC
 2. Independent human plausibility review
 
-Automated checks evaluate date chronology, status and date consistency, overdue calculations, CAPA lifecycle logic, change management lifecycle logic, training coverage calculations, and single-point-of-failure logic.
+Automated checks evaluate date chronology, status and date consistency, overdue calculations, CAPA lifecycle logic, change management lifecycle logic, training and capability coverage calculations, and single-point-of-failure logic.
 
-The KPI results were also independently recalculated and reconciled with the primary analytics engine.
+The KPI results were independently recalculated and matched the primary analytics engine outputs.
 
 Human review evaluates whether the synthetic records, KPI values, risk patterns, and management conclusions are operationally believable.
 
@@ -118,10 +118,12 @@ qms-performance-analytics/
 ├── config/
 ├── data/
 ├── outputs/
+│   └── Wolf_Analytics_QMS_Management_Review.pdf
 ├── src/
 │   ├── generate_synthetic_qms_data.py
 │   ├── qms_metrics.py
 │   └── qms_dashboard.py
+├── DATA_DICTIONARY.md
 ├── PROJECT_PLAN.md
 ├── QC_METHODS.md
 ├── RESUME_EVIDENCE.md
@@ -136,6 +138,8 @@ All data in this repository are synthetic.
 The project contains no employer, client, patient, sponsor, confidential, proprietary, or personally identifiable data.
 
 It demonstrates analytical, quality systems, and management review thinking. It does not claim ownership or operation of a commercial medical device QMS, ISO certification, or direct commercial medical device manufacturing experience.
+
+See `DATA_DICTIONARY.md` for descriptions of the synthetic datasets and fields.
 
 ## Purpose
 
