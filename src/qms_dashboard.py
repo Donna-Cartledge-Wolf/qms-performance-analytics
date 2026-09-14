@@ -493,7 +493,7 @@ with root_center:
             '<div class="chart-title">Quality Events by Root-Cause Category</div>',
             unsafe_allow_html=True,
         )
-        st.pyplot(fig, width="stretch")
+        st.pyplot(fig)
         plt.close(fig)
 
     with root_table_col:
