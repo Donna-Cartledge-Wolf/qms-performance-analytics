@@ -564,7 +564,7 @@ fig.tight_layout()
 trend_left, trend_center, trend_right = st.columns([1, 3.4, 1])
 
 with trend_center:
-    st.pyplot(fig, width=780)
+    st.pyplot(fig)
 
 plt.close(fig)
 
@@ -664,7 +664,7 @@ with change_center:
         '<div class="chart-title">Change Status</div>',
         unsafe_allow_html=True,
     )
-    st.pyplot(fig, width=650)
+    st.pyplot(fig)
 
 plt.close(fig)
 
@@ -780,7 +780,7 @@ with cap_center:
         '<div class="chart-title">Capability Coverage by QMS Process</div>',
         unsafe_allow_html=True,
     )
-    st.pyplot(fig, width=900)
+    st.pyplot(fig)
 
 plt.close(fig)
 
